@@ -9,10 +9,10 @@ using namespace std;
 class Team{
 private:
     string logo;
-public:
     string name;
     int league;
     int wins, draws, losses, matches_played;
+public:
 
     Team(string objName, int objLeague){
         name = objName;
