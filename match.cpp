@@ -13,8 +13,9 @@ private:
     string home_team, away_team;
     vector <int> scorers;
     string hour;
-public:
     int goals_home, goals_away;
+    
+public:
     Match(string objDate, string objHome, string objAway, int objHgoals, int objAgoals){
         date = objDate;
         home_team = objHome;
