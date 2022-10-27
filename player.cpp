@@ -11,11 +11,11 @@ private:
     int age;
     string position;
     int captain;
-
-public:
     string name;
     string team;
     int goals_scored;
+
+public:
 
     Player(string objName, string objTeam, string objPosition, int objAge){
         name = objName;
