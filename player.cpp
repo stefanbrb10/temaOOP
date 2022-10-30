@@ -1,53 +1,38 @@
-#ifndef PLAYERS_H
-#define PLAYERS_H
-
-#include <iostream>
-#include <string>
-
+#include "PLAYERS_H"
 using namespace std;
 
-class Player{
-private:
-    int age;
-    string position;
-    int captain;
-    string name;
-    string team;
-    int goals_scored;
+Player::Player(string objName, string objTeam, string objPosition, int objAge){
+    name = objName;
+    team = objTeam;
+    position = objPosition;
+    age = objAge;
+    goals_scored = 0;
+}
 
-public:
+Player::Player(const Player& p){
+    name = p.name;
+    team = p.team;
+    position = p.position;
+    age = p.age;
+    goals_scored = p.goals_scored;
+}
 
-    Player(string objName, string objTeam, string objPosition, int objAge){
-        name = objName;
-        team = objTeam;
-        position = objPosition;
-        age = objAge;
-        goals_scored = 0;
-    }
+Player&Player::operator=(const Plaayer& other){
+    name = other.name;
+    team = other.team;
+    position = other.position;
+    age = other.age;
+    goals_scored = other.goals_scored;
+}
 
-    Player(const Player& p){
-        name = p.name;
-        team = p.team;
-        position = p.position;
-        age = p.age;
-        goals_scored = p.goals_scored;
-    }
+Player::Goal(){
+    goals_scored++;
+}
 
-    void Goal(){
-        goals_scored++;
-    }
+Player::~Player(){}
 
-    ~Player(){}
-    friend ostream& operator<<(ostream& os, Player p);
-};
-
-ostream& operator<<(ostream& os, Player p){
+ostream&Player:: operator<<(ostream& os, Player p){
     os << p.name << " " << p.team << " " << p.age << " " <<
     p.position << " " << p.goals_scored << " goals";
     return os;
-}
-#endif
-
-int main(){
-    return 0;
 }
