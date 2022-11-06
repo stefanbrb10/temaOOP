@@ -1,4 +1,6 @@
 #include "team.h"
+#include "player.h"
+#include <vector>
 
 using namespace std;
 
@@ -10,9 +12,10 @@ Team::Team(const Team&t){
     losses = t.losses;
 }
 
-Team::Team(string objName, int objLeague){
+Team::Team(string objName, string objLeague, vector<Player> objSquad){
     name = objName;
     league = objLeague;
+    squad = objSquad;
     wins = draws = losses = matches_played = 0;
 }
 
@@ -22,9 +25,10 @@ Team&Team::operator=(const Team& other){
     wins = other.wins;
     draws = other.draws;
     losses = other.losses;
+    return *this;
 }
 
-Team::getPoints(){
+int Team::getPoints(){
     return (3*wins + losses);
 }
 
