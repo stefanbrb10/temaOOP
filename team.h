@@ -3,6 +3,9 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
+#include "player.h"
+
 
 using namespace std;
 
@@ -10,11 +13,12 @@ class Team{
 private:
     string logo;
     string name;
-    int league;
+    string league;
     int wins, draws, losses, matches_played;
+    vector<Player> squad;
 
 public:
-    Team(string objName, int objLeague);
+    Team(string objName, string objLeague, vector <Player> squad);
     Team(const Team& t);
 
     Team& operator=(const Team& other);
