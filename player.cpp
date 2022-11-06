@@ -1,4 +1,4 @@
-#include "PLAYERS_H"
+#include "player.h"
 using namespace std;
 
 Player::Player(string objName, string objTeam, string objPosition, int objAge){
@@ -17,22 +17,23 @@ Player::Player(const Player& p){
     goals_scored = p.goals_scored;
 }
 
-Player&Player::operator=(const Plaayer& other){
+Player&Player::operator=(const Player& other){
     name = other.name;
     team = other.team;
     position = other.position;
     age = other.age;
     goals_scored = other.goals_scored;
+    return *this;
 }
 
-Player::Goal(){
+void Player::Goal(){
     goals_scored++;
 }
 
 Player::~Player(){}
 
-ostream&Player:: operator<<(ostream& os, Player p){
+ostream& operator<<(ostream& os, const Player& p){
     os << p.name << " " << p.team << " " << p.age << " " <<
-    p.position << " " << p.goals_scored << " goals";
+       p.position << " " << p.goals_scored << " goals";
     return os;
 }
