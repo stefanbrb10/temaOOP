@@ -26,7 +26,7 @@ public:
     void Goal();
 
     ~Player();
-    friend ostream& operator<<(ostream& os, Player p);
+    friend ostream& operator<<(ostream& os, const Player& p);
 };
 
 #endif
