@@ -8,11 +8,17 @@
 using namespace std;
 
 int main(){
-   /* Match M1("03.11.2022", "FCSB", "Rapid", 1, 1);
-    M1.Score();
-    cout << endl;
-    Match M2("06.11.2022", "FCSB", "West Ham", 0, 3);
-    M2.Score();*/
-    cout << "Hello world!";
+   
+    Player p1("Octavian Popescu", "FCSB", "Striker", 19);
+    Player p2("Bilel Omrani", "FCSB", "Striker", 29);
+    vector <Player> s1 = {p1,p2};
+    Player p3("Antonio Sefer", "FC Rapid 1923", "Striker", 22);
+    Player p4("Cristian Sapunaru", "FC Rapid 1923", "Defender", 38);
+    vector<Player> s2 = {p3, p4};
+    Team t1("FCSB", "SuperLiga", s1);
+    Team t2("FC Rapid 1923", "SuperLiga", s2);
+    vector <Player> goalScorers = {p1, p3};
+    Match("06.11.2022", t1, t2, 1, 1, goalScorers);
+
     return 0;
 }
