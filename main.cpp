@@ -1,5 +1,5 @@
 #include <iostream>
-#include<string>
+#include <string>
 #include "match.h"
 #include "team.h"
 #include "player.h"
@@ -8,7 +8,13 @@
 using namespace std;
 
 int main(){
-   
+    /*vector<string> goalScorers;
+    goalScorers.push_back("Popescu");
+    goalScorers.push_back("Sefer");
+    Match M1("03.11.2022", "FCSB", "Rapid", 1, 1, goalScorers);
+    Player P1("Popescu", "FCSB", "Striker", 19)
+    M1.Score();
+     */
     Player p1("Octavian Popescu", "FCSB", "Striker", 19);
     Player p2("Bilel Omrani", "FCSB", "Striker", 29);
     vector <Player> s1 = {p1,p2};
@@ -18,7 +24,7 @@ int main(){
     Team t1("FCSB", "SuperLiga", s1);
     Team t2("FC Rapid 1923", "SuperLiga", s2);
     vector <Player> goalScorers = {p1, p3};
-    Match("06.11.2022", t1, t2, 1, 1, goalScorers);
-
+    Match m("06.11.2022", 1, 1, goalScorers, t1, t2);
+    m.Score();
     return 0;
 }
