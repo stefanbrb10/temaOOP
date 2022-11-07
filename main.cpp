@@ -19,5 +19,6 @@ int main(){
     vector <Player> goalScorers = {p1, p3};
     Match m("06.11.2022", 1, 1, goalScorers, t1, t2);
     m.Score();
+    cout <<"Hello";
     return 0;
 }

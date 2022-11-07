@@ -3,14 +3,14 @@
 
 using namespace std;
 
-Match::Match(const Match &m, Team &awayTeam, Team &homeTeam) : away_team(awayTeam), home_team(homeTeam) {
+Match::Match(const Match &m, Team &awayTeam, Team &homeTeam) : home_team(homeTeam), away_team(awayTeam) {
     date = m.date;
     goals_home = m.goals_home;
     goals_away = m.goals_away;
 }
 
 Match::Match(string objDate, int objHgoals, int objAgoals, vector<Player> &objScorers,
-             Team &awayTeam, Team &homeTeam) : away_team(awayTeam), home_team(homeTeam) {
+             Team &awayTeam, Team &homeTeam) : home_team(homeTeam), away_team(awayTeam) {
     date = objDate;
     goals_home = objHgoals;
     goals_away = objAgoals;
