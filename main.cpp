@@ -8,13 +8,6 @@
 using namespace std;
 
 int main(){
-    /*vector<string> goalScorers;
-    goalScorers.push_back("Popescu");
-    goalScorers.push_back("Sefer");
-    Match M1("03.11.2022", "FCSB", "Rapid", 1, 1, goalScorers);
-    Player P1("Popescu", "FCSB", "Striker", 19)
-    M1.Score();
-     */
     Player p1("Octavian Popescu", "FCSB", "Striker", 19);
     Player p2("Bilel Omrani", "FCSB", "Striker", 29);
     vector <Player> s1 = {p1,p2};
