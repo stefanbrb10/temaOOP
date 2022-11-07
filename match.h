@@ -18,8 +18,9 @@ private:
     string hour;
     int goals_home, goals_away;
 public:
-    Match(string objDate, Team &objHome, Team &objAway, int objHgoals, int objAgoals, vector<Player> objScorers);
-    Match(const Match& m);
+    Match(string objDate, int objHgoals, int objAgoals, vector<Player> &objScorers,
+          Team &awayTeam, Team &homeTeam);
+    Match(const Match &m, Team &awayTeam, Team &homeTeam);
     Match& operator=(const Match& other);
     void Score();
     friend ostream& operator<<(ostream& os, Match m);
