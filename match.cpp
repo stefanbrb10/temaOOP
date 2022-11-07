@@ -3,18 +3,15 @@
 
 using namespace std;
 
-Match::Match(const Match& m){
+Match::Match(const Match &m, Team &awayTeam, Team &homeTeam) : away_team(awayTeam), home_team(homeTeam) {
     date = m.date;
-    home_team = m.home_team;
-    away_team = m.away_team;
     goals_home = m.goals_home;
     goals_away = m.goals_away;
 }
 
-Match::Match(string objDate, Team& objHome, Team& objAway, int objHgoals, int objAgoals, vector <Player> &objScorers){
+Match::Match(string objDate, int objHgoals, int objAgoals, vector<Player> &objScorers,
+             Team &awayTeam, Team &homeTeam) : away_team(awayTeam), home_team(homeTeam) {
     date = objDate;
-    home_team = objHome;
-    away_team = objAway;
     goals_home = objHgoals;
     goals_away = objAgoals;
     scorers = objScorers;
@@ -41,7 +38,7 @@ void Match::Score(){
         cout <<"Egal";
     }
     for(int i = 0; i < goals_home + goals_away; i++) {
-        cout << " " << scorers[i] << " ";
+        cout << " " << scorers[i].getName();
     }
 }
 
