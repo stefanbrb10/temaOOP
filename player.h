@@ -19,11 +19,14 @@ public:
 
     Player(string objName, string objTeam, string objPosition, int objAge);
 
+
     Player(const Player& p);
 
     Player& operator=(const Player& other);
 
     void Goal();
+
+    const string &getName() const;
 
     ~Player();
     friend ostream& operator<<(ostream& os, const Player& p);
