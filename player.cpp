@@ -37,3 +37,7 @@ ostream& operator<<(ostream& os, const Player& p){
        p.position << " " << p.goals_scored << " goals";
     return os;
 }
+
+const string &Player::getName() const {
+    return name;
+}
