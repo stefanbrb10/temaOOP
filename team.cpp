@@ -29,7 +29,7 @@ Team&Team::operator=(const Team& other){
 }
 
 int Team::getPoints(){
-    return (3*wins + losses);
+    return (3*wins + draws);
 }
 
 Team::~Team(){
