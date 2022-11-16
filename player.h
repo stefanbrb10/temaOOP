@@ -10,7 +10,6 @@ class Player{
 private:
     int age;
     string position;
-    int captain;
     string name;
     string team;
     int goals_scored;
