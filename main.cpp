@@ -106,7 +106,7 @@ int main(){
         }
     }
 
-     int etapa[21][21] = {0};
+     int etapa[21][21] = {{0}};
      int sz = teams1.size();
      cout << sz;
 
