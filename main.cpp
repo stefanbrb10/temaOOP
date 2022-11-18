@@ -119,8 +119,7 @@ int main(){
                  e1 = rand() % sz;
                  e2 = rand() % sz;
              }
-             cout << e1 << " " << e2 << endl;
-             cout << teams1[e1] << "-" << teams1[e2] << endl;
+             //cout << teams1[e1] << "-" << teams1[e2] << endl;
              check[e1] = 1;
              check[e2] = 1;
              etapa[e1][e2] = 1;
