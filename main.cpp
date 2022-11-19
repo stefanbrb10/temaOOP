@@ -76,15 +76,14 @@ void Clasa_match(string filepath, vector <Team> T, vector <Match> &M) {
                 stringstream awayG(t);
                 awayG >> awayGoals;
             }
-            cout << t;
             i++;
         }
         int index_home, index_away;
-        for(int i = 0; i < (int)teams1.size();i++) {
-            if (T[i].getName() == home)
-                index_home = i;
-            if (T[i].getName() == away)
-                index_away = i;
+        for(int k = 0; k < (int)teams1.size();k++) {
+            if (T[k].getName() == home)
+                index_home = k;
+            if (T[k].getName() == away)
+                index_away = k;
         }
 
         Match match(date, homeGoals, awayGoals, T[index_home], T[index_away]);
@@ -124,7 +123,7 @@ int main(){
     Clasa_team(teams1, T, P);
     vector<Match> M;
     Clasa_match("meciuri.txt", T, M);
-    for(int i = 0; i < (int)M.size(); i++, cout << '\n')
-        M[i].Score();
+   // for(int i = 0; i < (int)M.size(); i++, cout << '\n')
+     //   M[i].Score();
     return 0;
 }
