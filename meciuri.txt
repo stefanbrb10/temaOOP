@@ -1,1 +1,129 @@
+1/FCSB/FC Rapid/3/3
+1/CFR Cluj/U Cluj/3/2
+1/Farul Constanta/Hermannstadt Sibiu/2/2
+1/Petrolul Ploiesti/Sepsi OSK/0/1
+1/FC Voluntari/FC Arges Pitesti/3/0
+1/Chindia Targoviste/FC Botosani/0/1
+1/UTA Arad/Craiova 1948/2/2
+1/Universitatea Craiova/FC Mioveni/3/1
+2/FCSB/U Cluj/3/0
+2/CFR Cluj/Hermannstadt Sibiu/1/1
+2/Farul Constanta/Sepsi OSK/0/1
+2/Petrolul Ploiesti/FC Arges Pitesti/2/2
+2/FC Voluntari/FC Botosani/3/2
+2/Chindia Targoviste/Craiova 1948/1/1
+2/UTA Arad/FC Mioveni/0/1
+2/Universitatea Craiova/FC Rapid/2/3
+3/FCSB/Hermannstadt Sibiu/2/2
+3/CFR Cluj/Sepsi OSK/2/3
+3/Farul Constanta/FC Arges Pitesti/2/2
+3/Petrolul Ploiesti/FC Botosani/0/0
+3/FC Voluntari/Craiova 1948/3/2
+3/Chindia Targoviste/FC Mioveni/1/0
+3/UTA Arad/FC Rapid/0/2
+3/Universitatea Craiova/U Cluj/3/1
+4/FCSB/Sepsi OSK/3/3
+4/CFR Cluj/FC Arges Pitesti/2/0
+4/Farul Constanta/FC Botosani/0/1
+4/Petrolul Ploiesti/Craiova 1948/3/0
+4/FC Voluntari/FC Mioveni/1/1
+4/Chindia Targoviste/FC Rapid/1/0
+4/UTA Arad/U Cluj/3/2
+4/Universitatea Craiova/Hermannstadt Sibiu/0/3
+5/FCSB/FC Arges Pitesti/1/2
+5/CFR Cluj/FC Botosani/3/2
+5/Farul Constanta/Craiova 1948/3/0
+5/Petrolul Ploiesti/FC Mioveni/3/3
+5/FC Voluntari/FC Rapid/2/0
+5/Chindia Targoviste/U Cluj/2/1
+5/UTA Arad/Hermannstadt Sibiu/2/2
+5/Universitatea Craiova/Sepsi OSK/1/0
+6/FCSB/FC Botosani/0/2
+6/CFR Cluj/Craiova 1948/0/2
+6/Farul Constanta/FC Mioveni/1/3
+6/Petrolul Ploiesti/FC Rapid/1/2
+6/FC Voluntari/U Cluj/3/3
+6/Chindia Targoviste/Hermannstadt Sibiu/0/0
+6/UTA Arad/Sepsi OSK/2/3
+6/Universitatea Craiova/FC Arges Pitesti/3/2
+7/FCSB/Craiova 1948/2/3
+7/CFR Cluj/FC Mioveni/2/1
+7/Farul Constanta/FC Rapid/3/0
+7/Petrolul Ploiesti/U Cluj/0/2
+7/FC Voluntari/Hermannstadt Sibiu/0/0
+7/Chindia Targoviste/Sepsi OSK/2/3
+7/UTA Arad/FC Arges Pitesti/0/2
+7/Universitatea Craiova/FC Botosani/3/1
+8/FCSB/FC Mioveni/2/2
+8/CFR Cluj/FC Rapid/1/0
+8/Farul Constanta/U Cluj/1/3
+8/Petrolul Ploiesti/Hermannstadt Sibiu/3/1
+8/FC Voluntari/Sepsi OSK/0/3
+8/Chindia Targoviste/FC Arges Pitesti/3/2
+8/UTA Arad/FC Botosani/2/3
+8/Universitatea Craiova/Craiova 1948/2/2
+9/FC Rapid/FCSB/3/0
+9/U Cluj/CFR Cluj/2/0
+9/Hermannstadt Sibiu/Farul Constanta/0/2
+9/Sepsi OSK/Petrolul Ploiesti/3/2
+9/FC Arges Pitesti/FC Voluntari/2/3
+9/FC Botosani/Chindia Targoviste/2/2
+9/Craiova 1948/UTA Arad/3/1
+9/FC Mioveni/Universitatea Craiova/1/0
+10/FC Rapid/CFR Cluj/2/3
+10/U Cluj/Farul Constanta/3/1
+10/Hermannstadt Sibiu/Petrolul Ploiesti/2/1
+10/Sepsi OSK/FC Voluntari/2/0
+10/FC Arges Pitesti/Chindia Targoviste/3/3
+10/FC Botosani/UTA Arad/2/1
+10/Craiova 1948/Universitatea Craiova/1/0
+10/FC Mioveni/FCSB/2/2
+11/FC Rapid/Farul Constanta/2/3
+11/U Cluj/Petrolul Ploiesti/0/1
+11/Hermannstadt Sibiu/FC Voluntari/0/1
+11/Sepsi OSK/Chindia Targoviste/1/2
+11/FC Arges Pitesti/UTA Arad/2/0
+11/FC Botosani/Universitatea Craiova/1/3
+11/Craiova 1948/FCSB/1/0
+11/FC Mioveni/CFR Cluj/0/1
+12/FC Rapid/Petrolul Ploiesti/2/1
+12/U Cluj/FC Voluntari/2/1
+12/Hermannstadt Sibiu/Chindia Targoviste/2/0
+12/Sepsi OSK/UTA Arad/1/3
+12/FC Arges Pitesti/Universitatea Craiova/2/1
+12/FC Botosani/FCSB/0/1
+12/Craiova 1948/CFR Cluj/0/0
+12/FC Mioveni/Farul Constanta/2/3
+13/FC Rapid/FC Voluntari/2/2
+13/U Cluj/Chindia Targoviste/3/2
+13/Hermannstadt Sibiu/UTA Arad/2/2
+13/Sepsi OSK/Universitatea Craiova/2/3
+13/FC Arges Pitesti/FCSB/1/1
+13/FC Botosani/CFR Cluj/0/1
+13/Craiova 1948/Farul Constanta/0/3
+13/FC Mioveni/Petrolul Ploiesti/0/1
+14/FC Rapid/Chindia Targoviste/3/3
+14/U Cluj/UTA Arad/3/1
+14/Hermannstadt Sibiu/Universitatea Craiova/0/1
+14/Sepsi OSK/FCSB/2/2
+14/FC Arges Pitesti/CFR Cluj/0/2
+14/FC Botosani/Farul Constanta/1/3
+14/Craiova 1948/Petrolul Ploiesti/0/3
+14/FC Mioveni/FC Voluntari/3/3
+15/FC Rapid/UTA Arad/3/2
+15/U Cluj/Universitatea Craiova/0/2
+15/Hermannstadt Sibiu/FCSB/2/1
+15/Sepsi OSK/CFR Cluj/1/3
+15/FC Arges Pitesti/Farul Constanta/0/0
+15/FC Botosani/Petrolul Ploiesti/2/0
+15/Craiova 1948/FC Voluntari/2/2
+15/FC Mioveni/Chindia Targoviste/0/3
+16/FC Rapid/Universitatea Craiova/2/3
+16/U Cluj/FCSB/2/0
+16/Hermannstadt Sibiu/CFR Cluj/0/0
+16/Sepsi OSK/Farul Constanta/1/2
+16/FC Arges Pitesti/Petrolul Ploiesti/1/2
+16/FC Botosani/FC Voluntari/3/2
+16/Craiova 1948/Chindia Targoviste/0/3
+16/FC Mioveni/UTA Arad/0/1
 
