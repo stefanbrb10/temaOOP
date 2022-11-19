@@ -1,1 +1,521 @@
+Cristian Diaz/CSA Steaua/18/Goalkeeper
+Octavian Florea/CSA Steaua/24/Striker
+Gelu Anghel/CSA Steaua/26/Defender
+Giovanny Surdu/CSA Steaua/26/Defender
+Ruben Gabor/CSA Steaua/31/Midfielder
+Raul Patulea/CSA Steaua/30/Defender
+Gelu Valverde/CSA Steaua/37/Striker
+George Chira/CSA Steaua/25/Striker
+Ionut Dumitrache/CSA Steaua/17/Defender
+Filip Surdu(C)/CSA Steaua/23/Midfielder
+George Rusu/CSA Steaua/21/Defender
+Vasile Gaina/CSA Steaua/32/Goalkeeper
+Ionut Dociu/CSA Steaua/23/Midfielder
+Mohammed Pisica/CSA Steaua/19/Defender
+Benjamin Bradu/CSA Steaua/28/Midfielder
+Dragos Dociu/CSA Steaua/19/Midfielder
+Catalin Melcu/CSA Steaua/19/Striker
+Vlad Nastase/CSA Steaua/34/Striker
+Federico Petrov/CSA Steaua/36/Midfielder
+Costinel Becali/CSA Steaua/27/Striker
+Adelin Iancu/CSA Steaua/24/Defender
+Ionut Olaru/CSA Steaua/34/Defender
+Novak Surdu/CSA Steaua/19/Striker
+Ruben Toderean/CSA Steaua/26/Midfielder
+Filip Costea/CSA Steaua/29/Striker
+Andrei Istrate/CSA Steaua/24/Midfielder
+Catalin Lewandowski/Unirea Slobozia/30/Goalkeeper
+Marc Surdu(C)/Unirea Slobozia/37/Defender
+Octavian Nersidan/Unirea Slobozia/31/Striker
+Rocco Pozniak/Unirea Slobozia/31/Midfielder
+Denis Cimpeanu/Unirea Slobozia/23/Defender
+Hugo Budeanu/Unirea Slobozia/24/Defender
+Robert Tanase/Unirea Slobozia/23/Striker
+Darius Gaina/Unirea Slobozia/23/Midfielder
+Robert Valverde/Unirea Slobozia/25/Midfielder
+John Lewandowski/Unirea Slobozia/23/Defender
+Marius Nastase/Unirea Slobozia/18/Midfielder
+Mohammed Tanase/Unirea Slobozia/22/Goalkeeper
+Marin Dociu/Unirea Slobozia/17/Defender
+Moussoufa Patulea/Unirea Slobozia/16/Defender
+Sebastian Tanase/Unirea Slobozia/21/Midfielder
+Cristian Milescu/Unirea Slobozia/18/Defender
+Raul Velicu/Unirea Slobozia/17/Defender
+Ionut Melcu/Unirea Slobozia/29/Striker
+Gabriel Petrov/Unirea Slobozia/28/Midfielder
+Raul Neagu/Unirea Slobozia/33/Striker
+Cosmin Gaina/Unirea Slobozia/28/Midfielder
+John Dociu/Unirea Slobozia/28/Midfielder
+Antonio Rus/Unirea Slobozia/18/Defender
+Robert Istrate/Unirea Slobozia/21/Defender
+Filip Iancu/Unirea Slobozia/36/Midfielder
+George Velicu/Unirea Slobozia/32/Striker
+Marin Pitoi/Csikszereda Miercurea Ciuc/27/Goalkeeper
+Mohammed Al Rahman/Csikszereda Miercurea Ciuc/37/Midfielder
+Gabriel Surdu/Csikszereda Miercurea Ciuc/33/Midfielder
+Cristian Messi/Csikszereda Miercurea Ciuc/27/Midfielder
+Catalin Ionescu/Csikszereda Miercurea Ciuc/25/Defender
+Lionel Gabor/Csikszereda Miercurea Ciuc/16/Striker
+Marco Gabor(C)/Csikszereda Miercurea Ciuc/20/Midfielder
+Ruben Vlad/Csikszereda Miercurea Ciuc/18/Defender
+Robert Budeanu/Csikszereda Miercurea Ciuc/16/Midfielder
+Laurentiu Iancu/Csikszereda Miercurea Ciuc/37/Defender
+Benjamin Florea/Csikszereda Miercurea Ciuc/18/Midfielder
+Federico Valverde/Csikszereda Miercurea Ciuc/30/Goalkeeper
+Giovanny Chirica/Csikszereda Miercurea Ciuc/24/Striker
+Mohammed Cimpeanu/Csikszereda Miercurea Ciuc/21/Striker
+Rocco Dumitrache/Csikszereda Miercurea Ciuc/35/Midfielder
+Robert Ionescu/Csikszereda Miercurea Ciuc/31/Midfielder
+Rashid Lavric/Csikszereda Miercurea Ciuc/33/Striker
+Gabriel White/Csikszereda Miercurea Ciuc/23/Striker
+Rashid Moraru/Csikszereda Miercurea Ciuc/34/Striker
+Vlad Moraru/Csikszereda Miercurea Ciuc/33/Midfielder
+Mohammed Surdu/Csikszereda Miercurea Ciuc/30/Striker
+Vlad Anghel/Csikszereda Miercurea Ciuc/37/Defender
+Novak Pisica/Csikszereda Miercurea Ciuc/31/Striker
+Adelin Anghel/Csikszereda Miercurea Ciuc/36/Midfielder
+Novak Moraru/Csikszereda Miercurea Ciuc/28/Striker
+Marius Vasile/Csikszereda Miercurea Ciuc/17/Defender
+Mihai Dumitrache/Poli Iasi/37/Goalkeeper
+Gabriel Dumitrache/Poli Iasi/31/Defender
+Andrei Nastase/Poli Iasi/27/Defender
+Wesley Melcu/Poli Iasi/26/Midfielder
+Benjamin Neagu/Poli Iasi/37/Defender
+Adelin Vlad/Poli Iasi/27/Defender
+Giovanny Dociu/Poli Iasi/25/Defender
+Denis Florea/Poli Iasi/36/Midfielder
+Costinel Milescu/Poli Iasi/18/Striker
+Darius Dociu/Poli Iasi/27/Striker
+Filip Velicu(C)/Poli Iasi/33/Defender
+Costinel Istrate/Poli Iasi/16/Goalkeeper
+Adelin Melcu/Poli Iasi/24/Midfielder
+Wesley Becali/Poli Iasi/22/Midfielder
+Hugo Lavric/Poli Iasi/35/Midfielder
+Cosmin Dumitrache/Poli Iasi/37/Midfielder
+Rocco Popescu/Poli Iasi/26/Defender
+Novak Istrate/Poli Iasi/16/Defender
+Sebastian Valverde/Poli Iasi/32/Midfielder
+Laurentiu Barbu/Poli Iasi/31/Defender
+Rocco Tanase/Poli Iasi/34/Defender
+Rocco Dociu/Poli Iasi/28/Defender
+Ionut Lavric/Poli Iasi/31/Defender
+Rashid Mihaila/Poli Iasi/25/Defender
+Lionel Olaru/Poli Iasi/31/Defender
+Vasile Florea/Poli Iasi/24/Midfielder
+Lionel Ionescu/Buzau/26/Goalkeeper
+Raul Schlotterbeck/Buzau/21/Striker
+Raul Elias/Buzau/31/Midfielder
+Octavian Patulea/Buzau/34/Striker
+Denis Dragnoi(C)/Buzau/20/Defender
+Ionut Messi/Buzau/34/Defender
+Laurentiu Popescu/Buzau/17/Midfielder
+Federico Florea/Buzau/18/Striker
+Giani Rus/Buzau/26/Defender
+Marin Rusu/Buzau/21/Defender
+Andrei Martinovic/Buzau/29/Striker
+Raul Vasile/Buzau/17/Goalkeeper
+Catalin Messi/Buzau/20/Midfielder
+Giani Valverde/Buzau/24/Striker
+Moussoufa Mihaila/Buzau/34/Striker
+Vlad Milescu/Buzau/24/Defender
+Raul Sandu/Buzau/32/Striker
+Federico Bradu/Buzau/30/Midfielder
+Roberto Dumitrache/Buzau/36/Midfielder
+Cristian Moraru/Buzau/29/Defender
+Marius Pisica/Buzau/34/Defender
+Benjamin Dumitrache/Buzau/33/Midfielder
+Ionut Pozniak/Buzau/20/Defender
+Octavian Valverde/Buzau/37/Midfielder
+Horea Lavric/Buzau/32/Midfielder
+Ionut Dragnoi/Buzau/19/Midfielder
+Denis Vasile(C)/Unirea Dej/36/Goalkeeper
+Robert Elias/Unirea Dej/26/Defender
+John Gidoiu/Unirea Dej/20/Midfielder
+Antonio Neagu/Unirea Dej/26/Striker
+Catalin Chitu/Unirea Dej/30/Defender
+Horea Tanase/Unirea Dej/30/Midfielder
+Dragos Sandu/Unirea Dej/19/Defender
+Costinel Elias/Unirea Dej/23/Midfielder
+Marco White/Unirea Dej/20/Midfielder
+Giovanny Pozniak/Unirea Dej/21/Defender
+Cristian Nastase/Unirea Dej/31/Defender
+Giani Tanase/Unirea Dej/34/Goalkeeper
+Ruben Cretu/Unirea Dej/27/Midfielder
+Adelin Sapunaru/Unirea Dej/35/Midfielder
+Benjamin Pitoi/Unirea Dej/30/Defender
+Cezar White/Unirea Dej/34/Striker
+Gelu Elias/Unirea Dej/18/Striker
+Moussoufa Gidoiu/Unirea Dej/34/Defender
+Wesley Costea/Unirea Dej/22/Midfielder
+Raul Cretu/Unirea Dej/25/Defender
+Cristian Budeanu/Unirea Dej/32/Midfielder
+Cristian Marszolik/Unirea Dej/31/Midfielder
+Rashid Marszolik/Unirea Dej/20/Midfielder
+Adelin Costea/Unirea Dej/30/Midfielder
+Horea Messi/Unirea Dej/31/Defender
+Novak Tanase/Unirea Dej/26/Defender
+Mohammed Bradu/Otelul Galati/23/Goalkeeper
+Rashid Velicu/Otelul Galati/27/Defender
+Robert Olaru/Otelul Galati/25/Defender
+Marius Surdu/Otelul Galati/27/Striker
+Laurentiu Marszolik/Otelul Galati/24/Midfielder
+Antonio Popescu/Otelul Galati/30/Defender
+Rashid Milescu/Otelul Galati/23/Defender
+Moussoufa Patulea/Otelul Galati/20/Midfielder
+Giani Chirica/Otelul Galati/27/Striker
+Giani Rusu/Otelul Galati/22/Midfielder
+Rocco Iancu/Otelul Galati/37/Defender
+Vasile Vasile(C)/Otelul Galati/20/Goalkeeper
+Cristian Marszolik/Otelul Galati/21/Midfielder
+Costinel Rusu/Otelul Galati/20/Defender
+George Surdu/Otelul Galati/32/Defender
+Dragos Chira/Otelul Galati/30/Defender
+Novak Elias/Otelul Galati/28/Defender
+Giani Cretu/Otelul Galati/34/Midfielder
+Raul Melcu/Otelul Galati/27/Midfielder
+Cristian Vlad/Otelul Galati/26/Striker
+Octavian Gidoiu/Otelul Galati/19/Midfielder
+Marius Al Rahman/Otelul Galati/24/Midfielder
+Benjamin Iancu/Otelul Galati/36/Midfielder
+Stefan Ionescu/Otelul Galati/25/Midfielder
+Costinel Dragnoi/Otelul Galati/31/Midfielder
+Federico Martinovic/Otelul Galati/18/Defender
+Mihai Al Rahman/Dinamo Bucuresti/21/Goalkeeper
+Raul Dociu/Dinamo Bucuresti/34/Defender
+Ionut Mihaila/Dinamo Bucuresti/23/Defender
+Giani Dociu(C)/Dinamo Bucuresti/33/Striker
+Cezar Cretu/Dinamo Bucuresti/16/Defender
+Hugo Surdu/Dinamo Bucuresti/28/Midfielder
+Catalin Messi/Dinamo Bucuresti/30/Midfielder
+Patrick Costea/Dinamo Bucuresti/18/Midfielder
+Mihai Anghel/Dinamo Bucuresti/28/Midfielder
+Moussoufa Lewandowski/Dinamo Bucuresti/25/Midfielder
+Cristian Gaina/Dinamo Bucuresti/20/Defender
+Patrick Martinovic/Dinamo Bucuresti/22/Goalkeeper
+Marc Nersidan/Dinamo Bucuresti/31/Defender
+Federico Melcu/Dinamo Bucuresti/17/Striker
+Marco Lavric/Dinamo Bucuresti/35/Striker
+Dragos Sapunaru/Dinamo Bucuresti/35/Defender
+Novak Gabor/Dinamo Bucuresti/27/Midfielder
+Ruben Nastase/Dinamo Bucuresti/20/Striker
+Costinel Diaz/Dinamo Bucuresti/26/Defender
+Moussoufa Bradu/Dinamo Bucuresti/32/Striker
+Robert Valverde/Dinamo Bucuresti/28/Defender
+Marc Anghel/Dinamo Bucuresti/35/Defender
+Patrick Milescu/Dinamo Bucuresti/19/Defender
+Giovanny Istrate/Dinamo Bucuresti/21/Defender
+Benjamin Velicu/Dinamo Bucuresti/33/Striker
+Octavian Costea/Dinamo Bucuresti/32/Defender
+Benjamin Ionescu/CSM Slatina/19/Goalkeeper
+Octavian Chira(C)/CSM Slatina/19/Midfielder
+Marius Pitoi/CSM Slatina/33/Defender
+Federico Sapunaru/CSM Slatina/23/Midfielder
+Cristian Vlad/CSM Slatina/37/Defender
+Giani Nastase/CSM Slatina/37/Striker
+Wesley Marszolik/CSM Slatina/33/Midfielder
+Catalin Sapunaru/CSM Slatina/27/Midfielder
+Stefan Florea/CSM Slatina/17/Striker
+Filip Petrov/CSM Slatina/17/Defender
+Rocco Chitu/CSM Slatina/26/Striker
+Robert White/CSM Slatina/16/Goalkeeper
+Ruben Al Rahman/CSM Slatina/23/Striker
+Roberto Gaina/CSM Slatina/24/Midfielder
+Adelin Olaru/CSM Slatina/22/Defender
+John Tanase/CSM Slatina/25/Midfielder
+Cezar Dociu/CSM Slatina/24/Midfielder
+Roberto Dociu/CSM Slatina/25/Defender
+Octavian Lewandowski/CSM Slatina/21/Defender
+Giovanny Iancu/CSM Slatina/37/Striker
+Ionut Moraru/CSM Slatina/34/Striker
+Ionut Pisica/CSM Slatina/36/Midfielder
+Laurentiu Sapunaru/CSM Slatina/34/Midfielder
+Federico Valverde/CSM Slatina/37/Midfielder
+Benjamin Costea/CSM Slatina/31/Midfielder
+Cezar Nersidan/CSM Slatina/21/Striker
+Moussoufa Sapunaru/FC Brasov/19/Goalkeeper
+George Ionescu(C)/FC Brasov/32/Midfielder
+Vasile Eftene/FC Brasov/27/Striker
+Darius Barbu/FC Brasov/16/Defender
+Cezar Costea/FC Brasov/34/Defender
+Gabriel Al Rahman/FC Brasov/25/Striker
+Mohammed Andronic/FC Brasov/19/Defender
+Raul Cretu/FC Brasov/18/Striker
+Benjamin Cretu/FC Brasov/25/Striker
+Cezar Anghel/FC Brasov/36/Striker
+Vasile Cimpeanu/FC Brasov/21/Defender
+Andrei Ionescu/FC Brasov/34/Goalkeeper
+Wesley Neagu/FC Brasov/19/Midfielder
+Dragos Cretu/FC Brasov/26/Defender
+Darius Rus/FC Brasov/29/Midfielder
+Patrick Barbu/FC Brasov/22/Defender
+Hugo Chitu/FC Brasov/28/Defender
+Ruben Elias/FC Brasov/31/Midfielder
+Patrick Becali/FC Brasov/16/Midfielder
+Octavian Chirica/FC Brasov/32/Defender
+Raul Pisica/FC Brasov/30/Defender
+Giovanny Valverde/FC Brasov/19/Striker
+Mihai Surdu/FC Brasov/19/Striker
+Adelin Becali/FC Brasov/16/Midfielder
+Dragos Vasile/FC Brasov/27/Midfielder
+Wesley Budeanu/FC Brasov/30/Defender
+Catalin Chitu/Selimbar/17/Goalkeeper
+Cristian Patulea/Selimbar/26/Midfielder
+Mohammed Barbu/Selimbar/18/Midfielder
+Mason Dragnoi/Selimbar/22/Defender
+Rashid Bradu/Selimbar/34/Striker
+Octavian Messi(C)/Selimbar/19/Striker
+Vlad Moraru/Selimbar/22/Striker
+Adelin Elias/Selimbar/20/Midfielder
+Marin Schlotterbeck/Selimbar/19/Midfielder
+Lionel Marszolik/Selimbar/19/Striker
+Andrei Messi/Selimbar/37/Defender
+Mihai Marszolik/Selimbar/23/Goalkeeper
+Benjamin Moraru/Selimbar/35/Defender
+George Anghel/Selimbar/16/Midfielder
+Rashid Gaina/Selimbar/29/Defender
+Darius Surdu/Selimbar/31/Defender
+Cosmin Melcu/Selimbar/26/Defender
+Stefan Budeanu/Selimbar/30/Defender
+Ruben Gidoiu/Selimbar/37/Midfielder
+Gabriel Martinovic/Selimbar/19/Midfielder
+Rocco Gabor/Selimbar/27/Striker
+Vlad Neagu/Selimbar/34/Midfielder
+Marin Becali/Selimbar/31/Midfielder
+Raul Iancu/Selimbar/21/Midfielder
+Octavian Velicu/Selimbar/23/Defender
+Costinel Chirica/Selimbar/23/Striker
+George Rus/Concordia Chiajna/17/Goalkeeper
+Mihai Chitu/Concordia Chiajna/27/Defender
+Cristian Florea/Concordia Chiajna/24/Defender
+Octavian Pitoi/Concordia Chiajna/32/Defender
+Roberto Schlotterbeck/Concordia Chiajna/20/Striker
+Cezar Cimpeanu/Concordia Chiajna/26/Striker
+Adelin Pisica(C)/Concordia Chiajna/29/Defender
+Raul Cretu/Concordia Chiajna/25/Defender
+Gelu Vasile/Concordia Chiajna/31/Midfielder
+Novak Iancu/Concordia Chiajna/36/Defender
+Mihai Andronic/Concordia Chiajna/35/Midfielder
+Adelin Mihaila/Concordia Chiajna/27/Goalkeeper
+Stefan Olaru/Concordia Chiajna/33/Striker
+Filip Nersidan/Concordia Chiajna/19/Defender
+George Al Rahman/Concordia Chiajna/19/Midfielder
+Marius Lewandowski/Concordia Chiajna/20/Striker
+Ruben Olaru/Concordia Chiajna/25/Midfielder
+Horea Dumitrache/Concordia Chiajna/26/Defender
+Novak Sandu/Concordia Chiajna/16/Midfielder
+Sebastian Barbu/Concordia Chiajna/29/Defender
+Cristian Lewandowski/Concordia Chiajna/22/Midfielder
+Marius Iancu/Concordia Chiajna/33/Midfielder
+Adelin Valverde/Concordia Chiajna/36/Striker
+Giani Velicu/Concordia Chiajna/24/Midfielder
+Filip Cimpeanu/Concordia Chiajna/26/Midfielder
+Giovanny Dumitrache/Concordia Chiajna/27/Defender
+Darius Surdu/CSM Oltenita/16/Goalkeeper
+Mihai Messi(C)/CSM Oltenita/26/Striker
+Mihai Nastase/CSM Oltenita/35/Striker
+Rocco Gaina/CSM Oltenita/18/Striker
+Stefan Surdu/CSM Oltenita/24/Defender
+Marc Marszolik/CSM Oltenita/23/Defender
+Giovanny Gidoiu/CSM Oltenita/18/Midfielder
+George Lavric/CSM Oltenita/23/Midfielder
+Moussoufa Mihaila/CSM Oltenita/26/Defender
+Gabriel Gaina/CSM Oltenita/33/Defender
+Vlad Rus/CSM Oltenita/36/Defender
+Cristian Dociu/CSM Oltenita/27/Goalkeeper
+Ruben Gaina/CSM Oltenita/22/Striker
+Mohammed Popescu/CSM Oltenita/31/Midfielder
+Mohammed Elias/CSM Oltenita/34/Defender
+Patrick Ionescu/CSM Oltenita/20/Defender
+Moussoufa Sapunaru/CSM Oltenita/33/Defender
+Gelu Cimpeanu/CSM Oltenita/33/Striker
+Andrei Velicu/CSM Oltenita/16/Striker
+Ruben Surdu/CSM Oltenita/17/Midfielder
+Hugo Dumitrache/CSM Oltenita/27/Striker
+Giani Milescu/CSM Oltenita/31/Midfielder
+Adelin Pisica/CSM Oltenita/27/Defender
+Mohammed Vasile/CSM Oltenita/22/Striker
+Cosmin Sapunaru/CSM Oltenita/23/Midfielder
+John Vlad/CSM Oltenita/25/Midfielder
+Robert Messi/Viitorul Tg Jiu/20/Goalkeeper
+Denis Sandu/Viitorul Tg Jiu/16/Defender
+Denis Istrate/Viitorul Tg Jiu/25/Defender
+Mohammed Ionescu/Viitorul Tg Jiu/29/Striker
+Rashid Diaz/Viitorul Tg Jiu/24/Midfielder
+Marin Martinovic/Viitorul Tg Jiu/27/Striker
+Ruben Cretu/Viitorul Tg Jiu/16/Midfielder
+Antonio Becali/Viitorul Tg Jiu/37/Midfielder
+Patrick Podocea/Viitorul Tg Jiu/27/Defender
+Giani Lewandowski/Viitorul Tg Jiu/26/Defender
+Laurentiu Barbu/Viitorul Tg Jiu/27/Midfielder
+Adelin Gabor/Viitorul Tg Jiu/23/Goalkeeper
+Raul Schlotterbeck/Viitorul Tg Jiu/27/Defender
+Moussoufa Sandu/Viitorul Tg Jiu/30/Defender
+Lionel Elias(C)/Viitorul Tg Jiu/23/Defender
+Hugo Podocea/Viitorul Tg Jiu/28/Midfielder
+Rocco Cretu/Viitorul Tg Jiu/24/Defender
+Roberto White/Viitorul Tg Jiu/33/Striker
+Novak Moraru/Viitorul Tg Jiu/16/Midfielder
+Horea Pitoi/Viitorul Tg Jiu/32/Striker
+John Rus/Viitorul Tg Jiu/24/Midfielder
+John Anghel/Viitorul Tg Jiu/28/Defender
+Rocco Iancu/Viitorul Tg Jiu/28/Striker
+Andrei Milescu/Viitorul Tg Jiu/32/Defender
+Rocco Velicu/Viitorul Tg Jiu/20/Midfielder
+Laurentiu Messi/Viitorul Tg Jiu/37/Striker
+Marius Martinovic(C)/Minaur Baia Mare/35/Goalkeeper
+Giovanny Gaina/Minaur Baia Mare/34/Striker
+Costinel Valverde/Minaur Baia Mare/22/Midfielder
+Robert Toderean/Minaur Baia Mare/17/Midfielder
+Patrick Mihaila/Minaur Baia Mare/28/Defender
+Mohammed Andronic/Minaur Baia Mare/34/Midfielder
+Antonio Valverde/Minaur Baia Mare/19/Striker
+Catalin Surdu/Minaur Baia Mare/22/Striker
+Adelin Andronic/Minaur Baia Mare/23/Defender
+Andrei Cimpeanu/Minaur Baia Mare/23/Defender
+Cristian Nastase/Minaur Baia Mare/24/Midfielder
+Giani Messi/Minaur Baia Mare/29/Goalkeeper
+Sebastian Velicu/Minaur Baia Mare/31/Striker
+Mihai Martinovic/Minaur Baia Mare/22/Midfielder
+Marin Patulea/Minaur Baia Mare/24/Defender
+Marc Nastase/Minaur Baia Mare/24/Defender
+Mason Cimpeanu/Minaur Baia Mare/29/Defender
+Benjamin Budeanu/Minaur Baia Mare/25/Midfielder
+Cosmin Mihaila/Minaur Baia Mare/35/Defender
+Mason Pitoi/Minaur Baia Mare/37/Defender
+Catalin Toderean/Minaur Baia Mare/27/Defender
+Moussoufa Dumitrache/Minaur Baia Mare/22/Striker
+George Gaina/Minaur Baia Mare/26/Defender
+Vasile Dragnoi/Minaur Baia Mare/23/Midfielder
+Federico Messi/Minaur Baia Mare/21/Striker
+Moussoufa Andronic/Minaur Baia Mare/35/Striker
+Moussoufa Surdu/Progresul Spartac/18/Goalkeeper
+Lionel Pitoi/Progresul Spartac/26/Striker
+Hugo Lewandowski/Progresul Spartac/19/Midfielder
+Laurentiu Elias/Progresul Spartac/17/Defender
+Benjamin Toderean/Progresul Spartac/24/Midfielder
+Federico White/Progresul Spartac/31/Defender
+Marin Velicu/Progresul Spartac/22/Defender
+Roberto Dociu/Progresul Spartac/18/Midfielder
+Andrei Barbu(C)/Progresul Spartac/35/Defender
+Cezar Dociu/Progresul Spartac/18/Defender
+Patrick Pisica/Progresul Spartac/16/Defender
+Vasile Pozniak/Progresul Spartac/18/Goalkeeper
+Giani Elias/Progresul Spartac/28/Midfielder
+Gelu Dumitrache/Progresul Spartac/27/Defender
+Lionel Elias/Progresul Spartac/25/Striker
+Gabriel Gaina/Progresul Spartac/18/Striker
+Cristian Pisica/Progresul Spartac/23/Midfielder
+Darius Becali/Progresul Spartac/18/Midfielder
+Novak Melcu/Progresul Spartac/32/Midfielder
+Federico Milescu/Progresul Spartac/28/Striker
+Ionut White/Progresul Spartac/37/Midfielder
+Mihai White/Progresul Spartac/17/Midfielder
+Novak Vasile/Progresul Spartac/30/Midfielder
+Rocco Nastase/Progresul Spartac/23/Striker
+Denis Istrate/Progresul Spartac/28/Midfielder
+Vlad Mihaila/Progresul Spartac/16/Midfielder
+Federico Chitu/Victoria Chirnogi/18/Goalkeeper
+Hugo Pisica/Victoria Chirnogi/34/Striker
+Laurentiu Al Rahman/Victoria Chirnogi/21/Defender
+Raul Messi/Victoria Chirnogi/36/Midfielder
+Roberto Chirica/Victoria Chirnogi/18/Striker
+Benjamin Florea/Victoria Chirnogi/32/Defender
+Cosmin Petrov/Victoria Chirnogi/24/Striker
+Patrick Dragnoi/Victoria Chirnogi/31/Midfielder
+Robert Chirica/Victoria Chirnogi/21/Striker
+Dragos Al Rahman/Victoria Chirnogi/29/Midfielder
+George Gidoiu/Victoria Chirnogi/34/Defender
+Dragos Iancu/Victoria Chirnogi/31/Goalkeeper
+Octavian Surdu/Victoria Chirnogi/36/Defender
+Denis Cretu/Victoria Chirnogi/29/Defender
+Novak Marszolik/Victoria Chirnogi/19/Midfielder
+Benjamin Budeanu/Victoria Chirnogi/26/Midfielder
+Denis Rus/Victoria Chirnogi/26/Midfielder
+Darius Petrov/Victoria Chirnogi/32/Midfielder
+Mohammed Toderean/Victoria Chirnogi/31/Midfielder
+Novak Dumitrache/Victoria Chirnogi/32/Striker
+Raul Neagu/Victoria Chirnogi/37/Striker
+Octavian Barbu/Victoria Chirnogi/36/Defender
+Wesley Tanase/Victoria Chirnogi/37/Midfielder
+Catalin Pozniak(C)/Victoria Chirnogi/17/Defender
+Antonio Elias/Victoria Chirnogi/31/Midfielder
+Stefan Martinovic/Victoria Chirnogi/33/Striker
+Hugo Anghel/FC Dumbravita/36/Goalkeeper
+Darius Diaz/FC Dumbravita/21/Defender
+Roberto Valverde/FC Dumbravita/27/Midfielder
+Rocco Schlotterbeck/FC Dumbravita/35/Midfielder
+Cezar Rus/FC Dumbravita/37/Defender
+Stefan Bradu/FC Dumbravita/33/Midfielder
+Giovanny Eftene/FC Dumbravita/17/Defender
+Adelin Vlad/FC Dumbravita/37/Defender
+Octavian Pisica/FC Dumbravita/27/Striker
+Adelin Vlad/FC Dumbravita/33/Midfielder
+Darius Cretu/FC Dumbravita/21/Defender
+Marius Mihaila/FC Dumbravita/30/Goalkeeper
+Marc Petrov/FC Dumbravita/20/Defender
+Cezar Valverde/FC Dumbravita/27/Midfielder
+George Elias/FC Dumbravita/18/Defender
+Octavian Lewandowski(C)/FC Dumbravita/22/Defender
+Patrick Neagu/FC Dumbravita/27/Defender
+Lionel Iancu/FC Dumbravita/35/Defender
+Ionut Tanase/FC Dumbravita/28/Midfielder
+Denis Tanase/FC Dumbravita/26/Striker
+Vasile Milescu/FC Dumbravita/23/Midfielder
+Mason Elias/FC Dumbravita/22/Midfielder
+Rocco Chirica/FC Dumbravita/31/Midfielder
+Mihai Surdu/FC Dumbravita/19/Midfielder
+Marius Podocea/FC Dumbravita/25/Midfielder
+Sebastian Budeanu/FC Dumbravita/19/Midfielder
+Horea Petrov/AFC Unirea Constanta/27/Goalkeeper
+Adelin Surdu/AFC Unirea Constanta/35/Striker
+Marin Pozniak/AFC Unirea Constanta/33/Midfielder
+Gabriel Nastase/AFC Unirea Constanta/28/Midfielder
+Cristian Diaz/AFC Unirea Constanta/32/Striker
+Giani Budeanu/AFC Unirea Constanta/33/Midfielder
+Roberto Chitu/AFC Unirea Constanta/36/Defender
+Ruben Chira(C)/AFC Unirea Constanta/26/Striker
+Marius Popescu/AFC Unirea Constanta/17/Striker
+Mihai Vlad/AFC Unirea Constanta/27/Defender
+Darius Elias/AFC Unirea Constanta/24/Midfielder
+Vlad Olaru/AFC Unirea Constanta/21/Goalkeeper
+Cristian Schlotterbeck/AFC Unirea Constanta/17/Midfielder
+Adelin Surdu/AFC Unirea Constanta/16/Defender
+Gabriel Sandu/AFC Unirea Constanta/33/Striker
+Rocco Marszolik/AFC Unirea Constanta/29/Midfielder
+Vasile Patulea/AFC Unirea Constanta/27/Midfielder
+Dragos Cretu/AFC Unirea Constanta/34/Defender
+Marco Ionescu/AFC Unirea Constanta/34/Striker
+Stefan Patulea/AFC Unirea Constanta/29/Defender
+Darius Petrov/AFC Unirea Constanta/24/Midfielder
+Raul Cretu/AFC Unirea Constanta/36/Defender
+Roberto Dragnoi/AFC Unirea Constanta/37/Defender
+Cristian Cretu/AFC Unirea Constanta/27/Midfielder
+Filip Istrate/AFC Unirea Constanta/33/Defender
+Cristian Ionescu/AFC Unirea Constanta/30/Defender
+Mohammed Pozniak(C)/Poli Timisoara/21/Goalkeeper
+Dragos Rusu/Poli Timisoara/36/Striker
+George Chirica/Poli Timisoara/29/Striker
+Gelu Olaru/Poli Timisoara/24/Defender
+Cosmin Chitu/Poli Timisoara/19/Defender
+Filip Surdu/Poli Timisoara/27/Defender
+Adelin Messi/Poli Timisoara/22/Striker
+Patrick Dumitrache/Poli Timisoara/27/Striker
+Sebastian Bradu/Poli Timisoara/18/Defender
+Gabriel Budeanu/Poli Timisoara/17/Midfielder
+Giovanny Barbu/Poli Timisoara/34/Striker
+Vlad Pozniak/Poli Timisoara/31/Goalkeeper
+Gelu Nersidan/Poli Timisoara/24/Midfielder
+Novak Barbu/Poli Timisoara/28/Striker
+Wesley Nersidan/Poli Timisoara/29/Midfielder
+Cosmin Lewandowski/Poli Timisoara/25/Striker
+Marc Sapunaru/Poli Timisoara/31/Midfielder
+Moussoufa Surdu/Poli Timisoara/32/Midfielder
+Ionut Mihaila/Poli Timisoara/34/Defender
+Cristian Cretu/Poli Timisoara/31/Defender
+Mason Lavric/Poli Timisoara/24/Midfielder
+Antonio Marszolik/Poli Timisoara/33/Striker
+Vlad Marszolik/Poli Timisoara/35/Midfielder
+Mihai Gabor/Poli Timisoara/26/Midfielder
+Rocco Pozniak/Poli Timisoara/35/Midfielder
+Horea Cimpeanu/Poli Timisoara/35/Midfielder
 
