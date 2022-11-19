@@ -32,7 +32,7 @@ void Clasa_player(string filepath, vector <Player> &P) {
         stringstream x(st);
         int i = 0;
         string name, team, position;
-        int age;
+        int age = 0;
         while (getline(x, t, '/')) {
             if (i == 0)
                 name = t;
@@ -60,7 +60,7 @@ void Clasa_match(string filepath, vector <Team> T, vector <Match> &M) {
         stringstream x(st);
         int i = 0;
         string date, home, away;
-        int homeGoals, awayGoals;
+        int homeGoals = 0, awayGoals = 0;
         while (getline(x, t, '/')) {
             if (i == 0)
                 date = t;
@@ -78,7 +78,7 @@ void Clasa_match(string filepath, vector <Team> T, vector <Match> &M) {
             }
             i++;
         }
-        int index_home, index_away;
+        int index_home = 0, index_away = 0;
         for(int k = 0; k < (int)teams1.size();k++) {
             if (T[k].getName() == home)
                 index_home = k;
