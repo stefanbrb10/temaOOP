@@ -16,6 +16,14 @@ Match::Match(string objDate, int objHgoals, int objAgoals,
     goals_away = objAgoals;
 }
 
+Team &Match::getHomeTeam() const {
+    return home_team;
+}
+
+Team &Match::getAwayTeam() const {
+    return away_team;
+}
+
 Match&Match::operator=(const Match& other){
     date = other.date;
     home_team = other.home_team;
@@ -28,17 +36,17 @@ Match&Match::operator=(const Match& other){
 void Match::Score(){
     if(goals_home > goals_away){
         /// voi adauga puncte in clasa Team pt echipa home
-        cout << "Castiga " << home_team;
+        cout << "Castiga " << home_team.getName();
     }
     else if(goals_home < goals_away){
-        cout << "Castiga " << away_team;
+        cout << "Castiga " << away_team.getName();
     }
     else {
         cout <<"Egal";
     }
-    for(int i = 0; i < goals_home + goals_away; i++) {
-        cout << " " << scorers[i].getName();
-    }
+   // for(int i = 0; i < goals_home + goals_away; i++) {
+    //    cout << " " << scorers[i].getName();
+   // }
 }
 
 Match::~Match(){

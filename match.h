@@ -26,6 +26,10 @@ public:
     void Score();
     friend ostream& operator<<(ostream& os, Match m);
     ~Match();
+
+    Team &getHomeTeam() const;
+
+    Team &getAwayTeam() const;
 };
 #endif
 

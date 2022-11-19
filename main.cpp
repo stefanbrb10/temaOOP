@@ -13,27 +13,6 @@
 
 using namespace std;
 
-vector<string> prenume = {"Stefan", "Octavian", "Cristian", "Moussoufa",
-                          "Marius", "Catalin", "Andrei", "Wesley", "Novak", "Filip", "Robert",
-                          "John", "Hugo", "Lionel", "Ruben", "Mihai", "Vlad", "Mohammed", "Darius",
-                          "Laurentiu", "Dragos", "George", "Patrick", "Ionut", "Marc", "Giani",
-                          "Benjamin", "Marco", "Roberto","Costinel", "Marin", "Rocco", "Adelin",
-                          "Denis", "Gabriel", "Giovanny", "Raul", "Horea", "Federico", "Rashid",
-                          "Vasile", "Cristian", "Sebastian", "Cosmin", "Gelu", "Antonio", "Cezar",
-                          "Mason"};
-
-vector<string> nume = {"Barbu", "Popescu", "Martinovic", "Patulea", "Rusu",
-                       "Chirica", "Florea", "Vlad", "Vasile", "Messi", "Diaz", "Al Rahman", "Olaru",
-                       "Lavric", "Elias", "Anghel", "Mihaila", "Marszolik", "Gaina", "Dumitrache", "Cretu",
-                       "Elias", "Toderean", "Iancu", "Cretu", "Velicu", "Ionescu", "Petrov", "Pozniak",
-                       "Neagu", "White", "Eftene", "Pisica", "Milescu", "Pitoi","Moraru", "Costea", "Nastase",
-                       "Dociu", "Lewandowski", "Sapunaru", "Andronic", "Schlotterbeck", "Valverde", "Dragnoi",
-                       "Surdu", "Gidoiu", "Bradu", "Melcu", "Chira", "Gabor", "Rus", "Chitu", "Becali",
-                       "Tanase", "Istrate", "Nersidan", "Sandu", "Podocea", "Budeanu", "Cimpeanu"};
-
-vector <string>pos = {"Defender", "Defender", "Defender",
-                      "Midfielder", "Midfielder", "Midfielder", "Striker", "Striker"};
-
 vector<string> teams1 = {"FCSB", "FC Rapid", "CFR Cluj", "U Cluj", "Farul Constanta",
                          "Hermannstadt Sibiu", "Petrolul Ploiesti", "Sepsi OSK", "FC Voluntari",
                          "FC Arges Pitesti", "Chindia Targoviste", "FC Botosani", "UTA Arad", "Craiova 1948",
@@ -45,44 +24,6 @@ vector<string> teams2 = {"CSA Steaua", "Unirea Slobozia", "Csikszereda Miercurea
                          "Viitorul Tg Jiu", "Minaur Baia Mare", "Progresul Spartac", "Victoria Chirnogi",
                          "FC Dumbravita", "AFC Unirea Constanta", "Poli Timisoara"};
 
-vector<Match> M;
-
-ofstream fo("meciuri.txt");
-
-
-void generate_players(vector<string>teams, string filepath) {
-    ofstream f(filepath);
-    for (int i = 0; i < (int) teams.size(); i++) {
-        int captain = rand() % SQUAD_SIZE;
-        for (int j = 0; j < SQUAD_SIZE; j++) {
-            f << prenume[rand() % prenume.size()] << " " <<
-                  nume[rand() % nume.size()];
-            if (j == captain)
-                f << "(C)";
-            f << "/" << teams[i] << "/" << rand() % AGE_DIF + MIN_AGE <<
-                  "/";
-            if (j == 0 || j == 11)
-                f << "Goalkeeper" << endl;
-            else f << pos[rand() % pos.size()] << endl;
-        }
-    }
-}
-
-void generate_round(vector<int> home, vector<int> away, vector<string> teams, int nr) {
-    int sz = teams.size();
-    for (int i = 0; i < sz / 2; i++) {
-        for (int j = 0; j < sz / 2; j++) {
-            int goalsHome = rand() % 4;
-            int goalsAway = rand() % 4;
-            fo << i + 1 + nr << '/' << teams[home[j]] << '/' << teams[away[j]]
-            << '/' << goalsHome << '/' <<goalsAway << endl;
-        }
-        int aux = away[0];
-        for (int j = 1; j < sz / 2; j++)
-            away[j - 1] = away[j];
-        away[sz / 2 - 1] = aux;
-    }
-}
 
 void Clasa_player(string filepath, vector <Player> &P) {
     string st, t;
@@ -112,7 +53,7 @@ void Clasa_player(string filepath, vector <Player> &P) {
     fin.close();
 }
 
-void Clasa_match(string filepath, vector <Team> &T) {
+void Clasa_match(string filepath, vector <Team> T, vector <Match> &M) {
     string st, t;
     ifstream fin(filepath);
     while (getline(fin, st)) {
@@ -125,17 +66,28 @@ void Clasa_match(string filepath, vector <Team> &T) {
                 date = t;
             else if (i == 1)
                 home = t;
-            else if (i == 2) {
+            else if (i==2)
+                away = t;
+            else if (i == 3) {
                 stringstream homeG(t);
                 homeG >> homeGoals;
             }
-            else if (i == 3) {
+            else if (i == 4) {
                 stringstream awayG(t);
                 awayG >> awayGoals;
             }
+            cout << t;
             i++;
         }
-        Match match(date, homeGoals, awayGoals, T[0], T[1]);
+        int index_home, index_away;
+        for(int i = 0; i < (int)teams1.size();i++) {
+            if (T[i].getName() == home)
+                index_home = i;
+            if (T[i].getName() == away)
+                index_away = i;
+        }
+
+        Match match(date, homeGoals, awayGoals, T[index_home], T[index_away]);
         M.push_back(match);
     }
     fin.close();
@@ -159,22 +111,20 @@ void Clasa_team(vector<string> teams, vector <Team> &T, vector <Player> P){
 
 int main(){
     srand(int(time(0)));
-    generate_players(teams1, "liga1.txt");
-    generate_players(teams2,"liga2.txt");
     vector<Player>P;
     Clasa_player("liga1.txt", P);
     Clasa_player("liga2.txt", P);
     vector <int>home;
     vector <int>away;
-    int sz = teams1.size();
     for(int i = 0; i < (int)teams1.size() -1; i+=2){
         home.push_back(i);
         away.push_back(i+1);
     }
-    generate_round(home,away,teams1, 0);
-    generate_round(away,home,teams1, sz / 2);
     vector<Team> T;
     Clasa_team(teams1, T, P);
-    Clasa_match("liga1.txt", T);
+    vector<Match> M;
+    Clasa_match("meciuri.txt", T, M);
+    for(int i = 0; i < (int)M.size(); i++, cout << '\n')
+        M[i].Score();
     return 0;
 }
