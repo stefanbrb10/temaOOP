@@ -9,12 +9,11 @@ Match::Match(const Match &m, Team &awayTeam, Team &homeTeam) : home_team(homeTea
     goals_away = m.goals_away;
 }
 
-Match::Match(string objDate, int objHgoals, int objAgoals, vector<Player> &objScorers,
+Match::Match(string objDate, int objHgoals, int objAgoals,
              Team &awayTeam, Team &homeTeam) : home_team(homeTeam), away_team(awayTeam) {
     date = objDate;
     goals_home = objHgoals;
     goals_away = objAgoals;
-    scorers = objScorers;
 }
 
 Match&Match::operator=(const Match& other){

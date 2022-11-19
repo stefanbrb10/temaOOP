@@ -25,6 +25,10 @@ public:
     int getPoints();
     ~Team();
     friend ostream& operator<<(ostream& os, Team t);
+
+    const string &getName() const;
+
+    const vector<Player> &getSquad() const;
 };
 
 #endif

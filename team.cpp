@@ -32,6 +32,14 @@ int Team::getPoints(){
     return (3*wins + draws);
 }
 
+const string &Team::getName() const {
+    return name;
+}
+
+const vector<Player> &Team::getSquad() const {
+    return squad;
+}
+
 Team::~Team(){
 
 }

@@ -18,7 +18,8 @@ private:
     string hour;
     int goals_home, goals_away;
 public:
-    Match(string objDate, int objHgoals, int objAgoals, vector<Player> &objScorers,
+    //scorers
+    Match(string objDate, int objHgoals, int objAgoals,
           Team &awayTeam, Team &homeTeam);
     Match(const Match &m, Team &awayTeam, Team &homeTeam);
     Match& operator=(const Match& other);
