@@ -39,7 +39,7 @@ void Match::Score(){
         cout << "Castiga gazda";
     }
     else if(goals_home < goals_away){
-        cout << "Castiga oaspetele" << away_team.getName();
+        cout << "Castiga oaspetele";
     }
     else {
         cout <<"Egal";
