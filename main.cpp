@@ -123,7 +123,7 @@ int main(){
     Clasa_team(teams1, T, P);
     vector<Match> M;
     Clasa_match("meciuri.txt", T, M);
-   // for(int i = 0; i < (int)M.size(); i++, cout << '\n')
-     //   M[i].Score();
+    for(int i = 0; i < (int)M.size(); i++, cout << '\n')
+        M[i].Score();
     return 0;
 }
