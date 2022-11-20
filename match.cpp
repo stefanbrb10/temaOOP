@@ -36,10 +36,10 @@ Match&Match::operator=(const Match& other){
 void Match::Score(){
     if(goals_home > goals_away){
         /// voi adauga puncte in clasa Team pt echipa home
-        cout << "Castiga " << home_team.getName();
+        cout << "Castiga gazda";
     }
     else if(goals_home < goals_away){
-        cout << "Castiga " << away_team.getName();
+        cout << "Castiga oaspetele" << away_team.getName();
     }
     else {
         cout <<"Egal";
