@@ -127,5 +127,7 @@ int main(){
         M[i].Score();
     P[1].Goal();
     vector <Player> echipa = T[10].getSquad();
+    for(int i =0; i < (int) echipa.size(); i++)
+        cout << echipa[i].getName() << " ";
     return 0;
 }
