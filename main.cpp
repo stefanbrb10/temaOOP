@@ -126,5 +126,6 @@ int main(){
     for(int i = 0; i < (int)M.size(); i++, cout << '\n')
         M[i].Score();
     P[1].Goal();
+    vector <Player> echipa = T[10].getSquad();
     return 0;
 }
