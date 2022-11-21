@@ -7,18 +7,16 @@
 #include <fstream>
 #include <sstream>
 
-#define SQUAD_SIZE 26
-#define AGE_DIF 22
-#define MIN_AGE 16
+const int SQUAD_SIZE = 26;
 
 using namespace std;
 
-vector<string> teams1 = {"FCSB", "FC Rapid", "CFR Cluj", "U Cluj", "Farul Constanta",
+const vector<string> teams1 = {"FCSB", "FC Rapid", "CFR Cluj", "U Cluj", "Farul Constanta",
                          "Hermannstadt Sibiu", "Petrolul Ploiesti", "Sepsi OSK", "FC Voluntari",
                          "FC Arges Pitesti", "Chindia Targoviste", "FC Botosani", "UTA Arad", "Craiova 1948",
                          "Universitatea Craiova", "FC Mioveni"};
 
-vector<string> teams2 = {"CSA Steaua", "Unirea Slobozia", "Csikszereda Miercurea Ciuc",
+const vector<string> teams2 = {"CSA Steaua", "Unirea Slobozia", "Csikszereda Miercurea Ciuc",
                          "Poli Iasi", "Buzau", "Unirea Dej", "Otelul Galati", "Dinamo Bucuresti",
                          "CSM Slatina", "FC Brasov", "Selimbar", "Concordia Chiajna", "CSM Oltenita",
                          "Viitorul Tg Jiu", "Minaur Baia Mare", "Progresul Spartac", "Victoria Chirnogi",
@@ -115,7 +113,8 @@ int main(){
     Clasa_player("liga2.txt", P);
     vector <int>home;
     vector <int>away;
-    for(int i = 0; i < (int)teams1.size() -1; i+=2){
+    int teamsSize = teams1.size();
+    for(int i = 0; i < teamsSize -1; i+=2){
         home.push_back(i);
         away.push_back(i+1);
     }
@@ -123,11 +122,13 @@ int main(){
     Clasa_team(teams1, T, P);
     vector<Match> M;
     Clasa_match("meciuri.txt", T, M);
-    for(int i = 0; i < (int)M.size(); i++, cout << '\n')
+    int matches_size = M.size();
+    for(int i = 0; i < matches_size; i++, cout << '\n')
         M[i].Score();
     P[1].Goal();
     vector <Player> echipa = T[10].getSquad();
-    for(int i =0; i < (int) echipa.size(); i++)
+    int echipaSize = echipa.size();
+    for(int i =0; i < echipaSize; i++)
         cout << echipa[i].getName() << " ";
     return 0;
 }
