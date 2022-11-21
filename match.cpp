@@ -3,26 +3,21 @@
 
 using namespace std;
 
-Match::Match(const Match &m, Team &awayTeam, Team &homeTeam) : home_team(homeTeam), away_team(awayTeam) {
-    date = m.date;
-    goals_home = m.goals_home;
-    goals_away = m.goals_away;
+Match::Match(const Match &m, Team &awayTeam, Team &homeTeam) : date(m.date), home_team(awayTeam), away_team(homeTeam), goals_home(m.goals_home), goals_away(m.goals_away) {
+
 }
 
 Match::Match(string objDate, int objHgoals, int objAgoals,
-             Team &awayTeam, Team &homeTeam) : home_team(homeTeam), away_team(awayTeam) {
-    date = objDate;
-    goals_home = objHgoals;
-    goals_away = objAgoals;
+             Team &awayTeam, Team &homeTeam) :  date(objDate), home_team(awayTeam), away_team(homeTeam), goals_home(objHgoals), goals_away(objAgoals) {
 }
 
-Team &Match::getHomeTeam() const {
+/*Team &Match::getHomeTeam() const {
     return home_team;
 }
 
 Team &Match::getAwayTeam() const {
     return away_team;
-}
+}*/
 
 Match&Match::operator=(const Match& other){
     date = other.date;

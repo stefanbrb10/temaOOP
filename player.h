@@ -12,7 +12,7 @@ private:
     string position;
     string name;
     string team;
-    int goals_scored;
+    int goals_scored = 0;
 
 public:
 

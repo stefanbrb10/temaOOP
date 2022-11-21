@@ -4,19 +4,11 @@
 
 using namespace std;
 
-Team::Team(const Team&t){
-    name = t.name;
-    league = t.league;
-    wins = t.wins;
-    draws = t.draws;
-    losses = t.losses;
+Team::Team(const Team&t):name(t.name), league(t.league), wins(t.wins), draws(t.draws), losses(t.losses){
+
 }
 
-Team::Team(string objName, string objLeague, vector<Player> objSquad){
-    name = objName;
-    league = objLeague;
-    squad = objSquad;
-    wins = draws = losses = matches_played = 0;
+Team::Team(string objName, string objLeague, vector<Player> objSquad):name(objName),league(objLeague), squad(objSquad){
 }
 
 Team&Team::operator=(const Team& other){
