@@ -19,7 +19,7 @@ private:
     int goals_home, goals_away;
 public:
     //scorers
-    Match(string objDate, int objHgoals, int objAgoals,
+    Match(const string &objDate, int objHgoals, int objAgoals,
           Team &awayTeam, Team &homeTeam);
     Match(const Match &m, Team &awayTeam, Team &homeTeam);
     Match& operator=(const Match& other);

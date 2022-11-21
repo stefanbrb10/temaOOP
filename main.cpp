@@ -125,5 +125,6 @@ int main(){
     Clasa_match("meciuri.txt", T, M);
     for(int i = 0; i < (int)M.size(); i++, cout << '\n')
         M[i].Score();
+    P[1].Goal();
     return 0;
 }

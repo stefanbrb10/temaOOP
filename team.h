@@ -18,7 +18,7 @@ private:
     vector<Player> squad;
 
 public:
-    Team(string objName, string objLeague, vector <Player> squad);
+    Team(const string &objName, const string &objLeague, vector <Player> squad);
     Team(const Team& t);
 
     Team& operator=(const Team& other);

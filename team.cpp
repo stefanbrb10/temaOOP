@@ -8,7 +8,7 @@ Team::Team(const Team&t):name(t.name), league(t.league), wins(t.wins), draws(t.d
 
 }
 
-Team::Team(string objName, string objLeague, vector<Player> objSquad):name(objName),league(objLeague), squad(objSquad){
+Team::Team(const string &objName, const string &objLeague, vector<Player> objSquad):name(objName),league(objLeague), squad(objSquad){
 }
 
 Team&Team::operator=(const Team& other){

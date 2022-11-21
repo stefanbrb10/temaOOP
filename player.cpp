@@ -1,7 +1,7 @@
 #include "player.h"
 using namespace std;
 
-Player::Player(string objName, string objTeam, string objPosition, int objAge):age(objAge), position(objPosition), name(objName), team(objTeam){
+Player::Player(const string &objName, const string &objTeam, const string &objPosition, int objAge):age(objAge), position(objPosition), name(objName), team(objTeam){
 }
 
 Player::Player(const Player& p): age(p.age), position(p.position), name(p.name), team(p.team), goals_scored(p.goals_scored){

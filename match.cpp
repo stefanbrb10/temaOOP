@@ -7,7 +7,7 @@ Match::Match(const Match &m, Team &awayTeam, Team &homeTeam) : date(m.date), hom
 
 }
 
-Match::Match(string objDate, int objHgoals, int objAgoals,
+Match::Match(const string &objDate, int objHgoals, int objAgoals,
              Team &awayTeam, Team &homeTeam) :  date(objDate), home_team(awayTeam), away_team(homeTeam), goals_home(objHgoals), goals_away(objAgoals) {
 }
 
