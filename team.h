@@ -14,7 +14,7 @@ private:
     string logo;
     string name;
     string league;
-    int wins = 0, draws = 0, losses = 0, matches_played = 0;
+    int wins = 0, draws = 0, losses = 0; // matches_played = 0;
     vector<Player> squad;
 
 public:
