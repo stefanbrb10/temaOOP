@@ -46,8 +46,13 @@ void Clasa_player(string filepath, vector <Player> &P) {
             }
             i++;
         }
+        try {
+            Player player(name, team, position, age);
+        }catch(eroare_jucator &err){
+            cout << err.what() << '\n';
+        }
         Player player(name, team, position, age);
-        P.push_back(player);
+          P.push_back(player);
     }
     fin.close();
 }
