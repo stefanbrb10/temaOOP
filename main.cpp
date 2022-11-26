@@ -48,11 +48,10 @@ void Clasa_player(string filepath, vector <Player> &P) {
         }
         try {
             Player player(name, team, position, age);
+            P.push_back(player);
         }catch(eroare_jucator &err){
             cout << err.what() << '\n';
         }
-        Player player(name, team, position, age);
-          P.push_back(player);
     }
     fin.close();
 }
