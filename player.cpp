@@ -5,14 +5,19 @@
 using namespace std;
 
 Player::Player(string objName, string objTeam, const string &objPosition, int objAge)
-  :age(objAge), position(objPosition), name(std::move(objName)), team(std::move(objTeam)){
-    if(objAge < 16)
-        throw eroare_varstaJucator();
-    if(objPosition != "Striker" && objPosition != "Midfielder" && objPosition != "Defender" &&
-    objPosition != "Goalkeeper") {
-        throw eroare_pozitieJucator();
+  :age(objAge), position(objPosition), name(std::move(objName)), team(std::move(objTeam)) {
+    try {
+        if (objAge < 16)
+            throw eroare_varstaJucator();
+        if (objPosition != "Striker" && objPosition != "Midfielder" && objPosition != "Defender" &&
+            objPosition != "Goalkeeper") {
+            throw eroare_pozitieJucator();
+        }
+    } catch (eroare_jucator &err) {
+        cout << err.what() << '\n';
     }
 }
+
 
 Player::Player(const Player& p): age(p.age), position(p.position), name(p.name), team(p.team), goals_scored(p.goals_scored){
 }
