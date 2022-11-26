@@ -6,7 +6,7 @@
 
 class eroare_jucator: public std::runtime_error{
 public:
-    explicit eroare_jucator(const std::string &arg);
+    explicit eroare_jucator(const char* arg);
 };
 
 class eroare_varstaJucator: public eroare_jucator{

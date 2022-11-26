@@ -112,13 +112,13 @@ int main(){
     vector<Player>P;
     Clasa_player("liga1.txt", P);
     Clasa_player("liga2.txt", P);
-    //Player gresit("Robert Stan","Barcelona", "extrema ascunsa", 14);
-    /*try{
+    /*Player gresit("Robert Stan","Barcelona", "extrema ascunsa", 14);
+    try{
        gresit.verifyPlayer();
     }catch(eroare_jucator &err){
         cout << err.what() << '\n';
-    }
-     */
+    }*/
+
     vector <int>home;
     vector <int>away;
     int teamsSize = teams1.size();
