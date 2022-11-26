@@ -16,7 +16,7 @@ private:
 
 public:
 
-    Player(const string &objName, const string &objTeam, const string &objPosition, int objAge);
+    Player(string objName, string objTeam, const string &objPosition, int objAge);
 
 
     Player(const Player& p);

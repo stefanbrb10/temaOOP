@@ -112,7 +112,7 @@ int main(){
     vector<Player>P;
     Clasa_player("liga1.txt", P);
     Clasa_player("liga2.txt", P);
-    /*Player gresit("Robert Stan","Barcelona", "extrema ascunsa", 14);
+   /* Player gresit("Robert Stan","Barcelona", "extrema ascunsa", 19);
     try{
        gresit.verifyPlayer();
     }catch(eroare_jucator &err){

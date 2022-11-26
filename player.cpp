@@ -1,10 +1,11 @@
 #include "player.h"
+
+#include <utility>
 #include "eroare_jucator.h"
 using namespace std;
 
-Player::Player(const string &objName, const string &objTeam, const string &objPosition, int objAge)
-  :age(objAge), position(objPosition), name(objName), team(objTeam){
-    //obj sau normal
+Player::Player(string objName, string objTeam, const string &objPosition, int objAge)
+  :age(objAge), position(objPosition), name(std::move(objName)), team(std::move(objTeam)){
     if(objAge < 16)
         throw eroare_varstaJucator();
     if(objPosition != "Striker" && objPosition != "Midfielder" && objPosition != "Defender" &&
