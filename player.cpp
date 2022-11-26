@@ -4,10 +4,11 @@ using namespace std;
 
 Player::Player(const string &objName, const string &objTeam, const string &objPosition, int objAge)
   :age(objAge), position(objPosition), name(objName), team(objTeam){
-    if(age < 16)
+    //obj sau normal
+    if(objAge < 16)
         throw eroare_varstaJucator();
-    if(position != "Striker" && position != "Midfielder" && position != "Defender" &&
-    position != "Goalkeeper") {
+    if(objPosition != "Striker" && objPosition != "Midfielder" && objPosition != "Defender" &&
+    objPosition != "Goalkeeper") {
         throw eroare_pozitieJucator();
     }
 }
