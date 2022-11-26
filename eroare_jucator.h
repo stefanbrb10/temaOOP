@@ -3,6 +3,7 @@
 #define OOP_EROARE_JUCATOR_H
 
 #include <stdexcept>
+#include <string>
 
 class eroare_jucator: public std::runtime_error{
 public:

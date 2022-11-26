@@ -1,5 +1,6 @@
 
 #include "eroare_jucator.h"
+#include <string>
 
 eroare_jucator::eroare_jucator(const std::string &arg) : runtime_error(arg){}
 
