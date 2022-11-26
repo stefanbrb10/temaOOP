@@ -29,6 +29,8 @@ public:
 
     ~Player();
     friend ostream& operator<<(ostream& os, const Player& p);
+
+    void verifyPlayer();
 };
 
 #endif
