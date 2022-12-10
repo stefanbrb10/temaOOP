@@ -24,10 +24,6 @@ const string &Team::getName() const {
     return name;
 }
 
-const vector<Player> &Team::getSquad() const {
-    return this->squad;
-}
-
 Team::~Team(){
 
 }

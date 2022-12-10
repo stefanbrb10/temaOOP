@@ -34,7 +34,6 @@ public:
 
     const string &getName() const;
 
-    [[nodiscard]] const vector<Player> &getSquad() const;
 };
 
 #endif
