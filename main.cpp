@@ -144,7 +144,6 @@ int main(){
     for(int i = 0; i < matches_size; i++, cout << '\n')
         M[i].Score();
     P[1].Goal();
-    vector <Player> echipa = T[10].getSquad();
     sort(T.begin(), T.end(), Team::cmp);
     cout << "---------------------CLASAMENT------------------------------------\n";
     for(int i = 0; i < (int)teams1.size(); i++)
