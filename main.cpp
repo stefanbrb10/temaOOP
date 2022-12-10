@@ -152,7 +152,8 @@ int main(){
     League *L[2];
     L[0] = new leagueJunior(8, "Romania", 19);
     L[1] = new leagueNationalTeam(32, "World", 8, "All", "Qatar");
-    L[0]->printRules();
-    L[1]->printRules();
+    auto vec = {L[0]->clone(), L[1]->clone()};
+    for(auto l:vec)
+        l->printRules();
     return 0;
 }
