@@ -27,7 +27,7 @@ public:
 
     void victory();
     void equal();
-    static bool cmp(Team team1, Team team2);
+    static bool cmp(const Team &team1,const Team &team2);
 
     ~Team();
     friend ostream& operator<<(ostream& os, Team t);
