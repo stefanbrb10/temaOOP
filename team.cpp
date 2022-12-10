@@ -45,7 +45,7 @@ void Team::victory() {
      wins++;
 }
 
-bool Team::cmp(Team team1, Team team2){
+bool Team::cmp(const Team team1,const Team team2){
     return (team1.getPoints() > team2.getPoints());
 }
 
