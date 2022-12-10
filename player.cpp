@@ -52,6 +52,6 @@ const string &Player::getName() const {
     return name;
 }
 
-int Player::getAge() const {
-    return age;
-}
+//int Player::getAge() const {
+ //   return age;
+//}
