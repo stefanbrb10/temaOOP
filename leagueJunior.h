@@ -19,8 +19,7 @@ public:
 
     void printRules() override{
         if(maxAge == 19)
-            std::cout << "Primele doua echipe din fiecare liga intra in turneul national,\n"
-                    "Meciul se joaca pe teren normal si la 5 faulturi se da un penalty";
+            std::cout << "Primele doua echipe din fiecare liga intra in turneul national,\nMeciul se joaca pe teren normal si la 5 faulturi se da un penalty";
         else if(maxAge > 16)
             std::cout << "Pentru jucatorii sub 15 ani se face cerere la federatie\n"
                     "Se iau masuri suplimentare pentru siguranta jucatorilor";

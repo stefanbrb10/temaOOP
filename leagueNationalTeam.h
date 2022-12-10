@@ -18,8 +18,7 @@ class leagueNationalTeam: public League{
 public:
     void printRules() override{
         std::cout << "Se joaca in tara " << hostCountry <<
-        " \nPozitiile 3-4 se decid prin jucarea unei finale mici\n"
-        "In timpul grupelor, la egalitate de puncte, urmatorul ca importanta este golaverajul, apoi golurile marcate";
+        " \nPozitiile 3-4 se decid prin jucarea unei finale mici\nIn timpul grupelor, la egalitate de puncte, urmatorul ca importanta este golaverajul, apoi golurile marcate";
     }
 
     leagueNationalTeam(int nrTeams, const std::string &country, int noOfGroups, const std::string &continent,
