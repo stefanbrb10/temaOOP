@@ -144,7 +144,7 @@ int main(){
     for(int i = 0; i < matches_size; i++, cout << '\n')
         M[i].Score();
     P[1].Goal();
-    sort(T.begin(), T.end(), Team::cmp);
+    std::sort(T.begin(), T.end(), Team::cmp);
     cout << "---------------------CLASAMENT------------------------------------\n";
     for(int i = 0; i < (int)teams1.size(); i++)
         cout << i + 1 << ". " << T[i].getName() << " " << T[i].getPoints() << '\n';
