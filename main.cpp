@@ -149,10 +149,9 @@ int main(){
     cout << "---------------------CLASAMENT------------------------------------\n";
     for(int i = 0; i < (int)teams1.size(); i++)
         cout << i + 1 << ". " << T[i].getName() << " " << T[i].getPoints() << '\n';
-    League *L[2];
-    L[0] = new leagueJunior(8, "Romania", 19);
-    L[1] = new leagueNationalTeam(32, "World", 8, "All", "Qatar");
-    auto vec = {L[0]->clone(), L[1]->clone()};
+    leagueJunior l1 = leagueJunior(8, "Romania", 19);
+    leagueNationalTeam l2 =  leagueNationalTeam(32, "World", 8, "All", "Qatar");
+    auto vec = {l1.clone(), l2.clone()};
     for(auto l:vec)
         l->printRules();
     return 0;
