@@ -4,6 +4,9 @@
 #include "team.h"
 #include "player.h"
 #include "eroare_jucator.h"
+#include "league.h"
+#include "leagueJunior.h"
+#include "leagueNationalTeam.h"
 #include<vector>
 #include <fstream>
 #include <sstream>
@@ -56,7 +59,7 @@ void Clasa_player(string filepath, vector <Player> &P) {
     fin.close();
 }
 
-void Clasa_match(string filepath, vector <Team> T, vector <Match> &M) {
+void Clasa_match(string filepath, vector <Team> &T, vector <Match> &M) {
     string st, t;
     ifstream fin(filepath);
     while (getline(fin, st)) {
@@ -136,13 +139,20 @@ int main(){
     Clasa_team(teams1, T, P);
     vector<Match> M;
     Clasa_match("meciuri.txt", T, M);
+
     int matches_size = M.size();
     for(int i = 0; i < matches_size; i++, cout << '\n')
         M[i].Score();
     P[1].Goal();
     vector <Player> echipa = T[10].getSquad();
-    int echipaSize = echipa.size();
-    for(int i =0; i < echipaSize; i++)
-        cout << echipa[i].getName() << " ";
+    sort(T.begin(), T.end(), Team::cmp);
+    cout << "---------------------CLASAMENT------------------------------------\n";
+    for(int i = 0; i < (int)teams1.size(); i++)
+        cout << i + 1 << ". " << T[i].getName() << " " << T[i].getPoints() << '\n';
+    League *L[2];
+    L[0] = new leagueJunior(8, "Romania", 19);
+    L[1] = new leagueNationalTeam(32, "World", 8, "All", "Qatar");
+    L[0]->printRules();
+    L[1]->printRules();
     return 0;
 }

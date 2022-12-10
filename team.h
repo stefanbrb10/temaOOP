@@ -4,6 +4,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <memory>
 #include "player.h"
 
 
@@ -21,7 +22,13 @@ public:
     Team(const Team& t);
 
     Team& operator=(const Team& other);
-    int getPoints();
+
+    int getPoints() const;
+
+    void victory();
+    void equal();
+    static bool cmp(Team team1, Team team2);
+
     ~Team();
     friend ostream& operator<<(ostream& os, Team t);
 

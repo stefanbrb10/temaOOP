@@ -51,3 +51,7 @@ void Player::verifyPlayer(){
 const string &Player::getName() const {
     return name;
 }
+
+int Player::getAge() const {
+    return age;
+}

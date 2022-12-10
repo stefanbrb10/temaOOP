@@ -9,6 +9,10 @@ using namespace std;
 class Player{
 private:
     int age;
+public:
+    int getAge() const;
+
+private:
     string position;
     string name;
     string team;

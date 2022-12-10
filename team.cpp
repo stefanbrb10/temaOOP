@@ -20,16 +20,12 @@ Team&Team::operator=(const Team& other){
     return *this;
 }
 
-int Team::getPoints(){
-    return (3*wins + draws);
-}
-
 const string &Team::getName() const {
     return name;
 }
 
 const vector<Player> &Team::getSquad() const {
-    return squad;
+    return this->squad;
 }
 
 Team::~Team(){
@@ -39,4 +35,21 @@ Team::~Team(){
 ostream& operator<<(ostream& os, Team t){
     os << t.name << " " << t.league << " " << t.getPoints();
     return os;
+}
+
+void Team::equal() {
+        draws++;
+}
+
+void Team::victory() {
+     wins++;
+}
+
+bool Team::cmp(Team team1, Team team2){
+    return (team1.getPoints() > team2.getPoints());
+}
+
+
+ int Team::getPoints() const {
+    return 3*wins + draws;
 }
