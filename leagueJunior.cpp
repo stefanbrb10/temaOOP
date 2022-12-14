@@ -15,3 +15,7 @@ leagueJunior::leagueJunior(int nrTeams, const std::string &country, int maxAge) 
 std::shared_ptr<League> leagueJunior::clone() const {
     return std::make_shared<leagueJunior>(*this);
 }
+
+leagueJunior::leagueJunior(const League &L, const leagueJunior &other) : League(L) {
+    maxAge = other.maxAge;
+}

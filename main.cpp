@@ -112,9 +112,6 @@ void Clasa_team(vector<string> teams, vector <Team> &T, vector <Player> P){
     }
 }
 
-
-
-
 int main(){
     srand(int(time(0)));
     vector<Player>P;
@@ -152,7 +149,7 @@ int main(){
     leagueJunior l1 = leagueJunior(8, "Romania", 19);
     leagueNationalTeam l2 =  leagueNationalTeam(32, "World", 8, "All", "Qatar");
     auto vec = {l1.clone(), l2.clone()};
-    for(auto l:vec)
+    for(shared_ptr<League> l:vec)
         l->printRules();
     return 0;
 }

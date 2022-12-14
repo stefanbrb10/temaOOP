@@ -24,6 +24,8 @@ public:
     leagueNationalTeam(int nrTeams, const std::string &country, int noOfGroups, const std::string &continent,
                        const std::string &hostCountry);
 
+    leagueNationalTeam(const League &L, const leagueNationalTeam &other);
+
     std::shared_ptr<League> clone() const override;
 
 

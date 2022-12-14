@@ -11,7 +11,4 @@ std::ostream &operator<<(std::ostream &os, const League &league) {
 
 League::League(int nrTeams, const std::string &country) : nrTeams(nrTeams), country(country) {}
 
-League::~League() {
-
-}
-
+League::~League() {}

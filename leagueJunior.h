@@ -17,6 +17,9 @@ public:
 
     leagueJunior(int nrTeams, const std::string &country, int maxAge);
 
+    leagueJunior(const League &L, const leagueJunior &other);
+
+
     void printRules() override{
         if(maxAge == 19)
             std::cout << "Primele doua echipe din fiecare liga intra in turneul national,\nMeciul se joaca pe teren normal si la 5 faulturi se da un penalty";

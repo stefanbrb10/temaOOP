@@ -16,6 +16,9 @@ class League{
 public:
     League(int nrTeams, const std::string &country);
 
+    League(const League &other) = default;
+
+
     virtual void printRules() = 0;
 
     virtual ~League();
