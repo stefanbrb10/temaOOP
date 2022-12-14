@@ -23,9 +23,7 @@ std::shared_ptr<League> leagueNationalTeam::clone() const {
     return std::make_shared<leagueNationalTeam>(*this);
 }
 
-leagueNationalTeam::leagueNationalTeam(const League &L, const leagueNationalTeam &other): League(L) {
-noOfGroups = other.noOfGroups;
-continent = other.continent;
-hostCountry = other.hostCountry;
+leagueNationalTeam::leagueNationalTeam(const League &L, const leagueNationalTeam &other): League(L), noOfGroups(other.noOfGroups), continent(other.continent), hostCountry(other.hostCountry) {
+
 }
 
