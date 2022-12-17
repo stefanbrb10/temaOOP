@@ -4,8 +4,10 @@
 #include "eroare_jucator.h"
 using namespace std;
 
+int Player::cnt = 0;
+
 Player::Player(string objName, string objTeam, const string &objPosition, int objAge)
-  :age(objAge), position(objPosition), name(std::move(objName)), team(std::move(objTeam)) {
+  :age(objAge), position(objPosition), name(std::move(objName)), team(std::move(objTeam)) ,nr_tricou(cnt++) {
         if (objAge < 16)
             throw eroare_varstaJucator();
         if (objPosition != "Striker" && objPosition != "Midfielder" && objPosition != "Defender" &&
@@ -27,7 +29,7 @@ Player&Player::operator=(const Player& other){
     return *this;
 }
 
-void Player::Goal(){
+ void Player::Goal(){
     goals_scored++;
 }
 

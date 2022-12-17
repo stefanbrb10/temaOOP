@@ -17,6 +17,8 @@ private:
     string name;
     string team;
     int goals_scored = 0;
+    int nr_tricou;
+    static int cnt;
 
 public:
 
