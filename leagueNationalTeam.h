@@ -21,7 +21,7 @@ public:
         " \nPozitiile 3-4 se decid prin jucarea unei finale mici\nIn timpul grupelor, la egalitate de puncte, urmatorul ca importanta este golaverajul, apoi golurile marcate";
     }
 
-    leagueNationalTeam(int nrTeams, const std::string &country, int noOfGroups, const std::string &continent,
+    leagueNationalTeam(int nrTeams, const std::string &country, int budget, int noOfGroups, const std::string &continent,
                        const std::string &hostCountry);
 
     leagueNationalTeam(const League &L, const leagueNationalTeam &other);

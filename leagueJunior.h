@@ -11,11 +11,12 @@
 
 
 class leagueJunior: public League{
+
     int maxAge;
 
 public:
 
-    leagueJunior(int nrTeams, const std::string &country, int maxAge);
+    leagueJunior(int nrTeams, const std::string &country, int budget, int maxAge);
 
     leagueJunior(const League &L, const leagueJunior &other);
 

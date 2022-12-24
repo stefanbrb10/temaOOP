@@ -12,12 +12,13 @@
 class League{
     int nrTeams;
     std::string country;
-
+    int budget;
 public:
-    League(int nrTeams, const std::string &country);
+    League(int nrTeams, const std::string &country, int budget);
 
     League(const League &other) = default;
 
+     int getBudget() const;
 
     virtual void printRules() = 0;
 

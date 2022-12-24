@@ -9,7 +9,7 @@ std::ostream &operator<<(std::ostream &os, const leagueJunior &junior) {
     return os;
 }
 
-leagueJunior::leagueJunior(int nrTeams, const std::string &country, int maxAge) : League(nrTeams, country),
+leagueJunior::leagueJunior(int nrTeams, const std::string &country, int budget, int maxAge) : League(nrTeams, country, budget),
                                                                                   maxAge(maxAge) {}
 
 std::shared_ptr<League> leagueJunior::clone() const {

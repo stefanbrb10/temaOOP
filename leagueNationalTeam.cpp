@@ -10,9 +10,9 @@ std::ostream &operator<<(std::ostream &os, const leagueNationalTeam &team) {
     return os;
 }
 
-leagueNationalTeam::leagueNationalTeam(int nrTeams, const std::string &country, int noOfGroups,
+leagueNationalTeam::leagueNationalTeam(int nrTeams, const std::string &country, int budget, int noOfGroups,
                                        const std::string &continent, const std::string &hostCountry) : League(nrTeams,
-                                                                                                              country),
+                                                                                                              country, budget),
                                                                                                        noOfGroups(
                                                                                                                noOfGroups),
                                                                                                        continent(

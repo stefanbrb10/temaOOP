@@ -7,6 +7,7 @@
 #include "league.h"
 #include "leagueJunior.h"
 #include "leagueNationalTeam.h"
+#include "country.h"
 #include<vector>
 #include <fstream>
 #include <sstream>
@@ -146,8 +147,18 @@ int main(){
     cout << "---------------------CLASAMENT------------------------------------\n";
     for(int i = 0; i < (int)teams1.size(); i++)
         cout << i + 1 << ". " << T[i].getName() << " " << T[i].getPoints() << '\n';
-    leagueJunior l1 = leagueJunior(8, "Romania", 19);
-    leagueNationalTeam l2 =  leagueNationalTeam(32, "World", 8, "All", "Qatar");
+    leagueJunior l1 = leagueJunior(8, "Romania", 4000, 19);
+    leagueJunior lUnder16 = leagueJunior(10, "Romania", 10000, 16);
+    leagueJunior lUnder10 = leagueJunior(16, "Romania", 8000, 10);
+    vector<shared_ptr<League>> romanian;
+    country Romania = country(romanian, 20000);
+    Romania.addLeague(l1);
+    Romania.addLeague(lUnder16);
+    Romania.addLeague(lUnder10);
+    if(Romania.budgetEnough())
+        cout << "Tara poate gazdui ligile alocate";
+    else cout << "Tara NU poate gazdui ligile alocate";
+    leagueNationalTeam l2 =  leagueNationalTeam(32, "World",300, 8, "All", "Qatar");
     auto vec = {l1.clone(), l2.clone()};
     for(shared_ptr<League> l:vec)
         l->printRules();
