@@ -3,7 +3,7 @@
 //
 
 #include "country.h"
-#include "League.h"
+#include "league.h"
 #include <vector>
 
 void country::addLeague(const League &league) {
