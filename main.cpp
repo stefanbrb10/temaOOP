@@ -145,13 +145,13 @@ int main(){
     P[1].Goal();
     sort(T.begin(), T.end(), Team::cmp);
     cout << "---------------------CLASAMENT------------------------------------\n";
-    for(int i = 0; i < (int)teams1.size(); i++)
+    for(auto i = 0ull; i < teams1.size(); i++)
         cout << i + 1 << ". " << T[i].getName() << " " << T[i].getPoints() << '\n';
     leagueJunior l1 = leagueJunior(8, "Romania", 4000, 19);
     leagueJunior lUnder16 = leagueJunior(10, "Romania", 10000, 16);
     leagueJunior lUnder10 = leagueJunior(16, "Romania", 8000, 10);
     vector<shared_ptr<League>> romanian;
-    country Romania = country(romanian, 20000);
+    country Romania = country(romanian, 30000);
     Romania.addLeague(l1);
     Romania.addLeague(lUnder16);
     Romania.addLeague(lUnder10);
@@ -162,5 +162,12 @@ int main(){
     auto vec = {l1.clone(), l2.clone()};
     for(shared_ptr<League> l:vec)
         l->printRules();
+    League* myLeague = dynamic_cast<League*>(&l2);
+    leagueNationalTeam* lnt = dynamic_cast<leagueNationalTeam*>(myLeague);
+    int money = lnt->getBudget();
+    if(money == 0)
+        cout << "Liga nu are buget";
+    else cout << money;
+
     return 0;
 }

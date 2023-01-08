@@ -5,7 +5,7 @@
 #include "leagueJunior.h"
 
 std::ostream &operator<<(std::ostream &os, const leagueJunior &junior) {
-    os << dynamic_cast<const League &>(junior) << " maxAge: " << junior.maxAge;
+    os << static_cast<const League &>(junior) << " maxAge: " << junior.maxAge;
     return os;
 }
 

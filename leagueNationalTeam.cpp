@@ -5,7 +5,7 @@
 #include "leagueNationalTeam.h"
 
 std::ostream &operator<<(std::ostream &os, const leagueNationalTeam &team) {
-    os << dynamic_cast<const League &>(team) << " noOfGroups: " << team.noOfGroups << " continent: "
+    os << static_cast<const League &>(team) << " noOfGroups: " << team.noOfGroups << " continent: "
        << team.continent << " hostCountry: " << team.hostCountry;
     return os;
 }
