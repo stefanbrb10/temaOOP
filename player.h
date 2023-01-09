@@ -17,7 +17,7 @@ private:
     string name;
     string team;
     int goals_scored = 0;
-    int nr_tricou;
+    const int nr_tricou;
     static int cnt;
 
 public:
@@ -35,8 +35,6 @@ public:
 
     ~Player();
     friend ostream& operator<<(ostream& os, const Player& p);
-
-    void verifyPlayer();
 };
 
 #endif

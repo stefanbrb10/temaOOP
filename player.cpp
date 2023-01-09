@@ -26,7 +26,6 @@ Player&Player::operator=(const Player& other){
     position = other.position;
     age = other.age;
     goals_scored = other.goals_scored;
-    nr_tricou = other.nr_tricou;
     return *this;
 }
 
@@ -42,14 +41,6 @@ ostream& operator<<(ostream& os, const Player& p){
     return os;
 }
 
-void Player::verifyPlayer(){
-    if(age < 16)
-        throw eroare_varstaJucator();
-    if(position != "Striker" && position != "Midfielder" && position != "Defender" &&
-       position != "Goalkeeper") {
-        throw eroare_pozitieJucator();
-    }
-}
 
 const string &Player::getName() const {
     return name;
