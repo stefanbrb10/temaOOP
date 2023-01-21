@@ -39,8 +39,8 @@ public:
 
 class jucator_factory{
 public:
-    static Player mijlocas(){ return Player("Marius Matei", "FC Rapid", "mijlocas", 21);}
-    static Player stelist(){return Player("Tavi Popescu", "FCSB", "atacant", 20);}
+    static Player mijlocas(){ return Player("Marius Matei", "FC Rapid", "Midfielder", 21);}
+    static Player stelist(){return Player("Tavi Popescu", "FCSB", "Striker", 20);}
 };
 
 #endif
