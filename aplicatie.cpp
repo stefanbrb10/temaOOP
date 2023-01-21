@@ -13,12 +13,8 @@ void Aplicatie::printMeniu() {
 }
 
 void Aplicatie::addJucator() {
-    int age;
-    string position;
-    string name;
-    string team;
-    std::cin >> age >> position >> name >> team;
-    Player jucator(name, team, position, age);
+
+    Player jucator("Stefan", "CS Timisoara", "Goalkeeper", 22);
     jucatori.push_back(jucator);
 }
 

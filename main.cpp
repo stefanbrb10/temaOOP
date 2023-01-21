@@ -169,14 +169,12 @@ int main(){
     else cout << money;
     auto& aplicatie = Aplicatie::getAplicatie();
     int optiune = 1;
-    do{
         aplicatie.printMeniu();
-        std::cin >> optiune;
         if(optiune == 1)
             aplicatie.addJucator();
+         optiune = 2;
         if(optiune == 2)
             aplicatie.printJucator();
-    }while(optiune !=0);
     Player steaua = jucator_factory::stelist();
     return 0;
 }
