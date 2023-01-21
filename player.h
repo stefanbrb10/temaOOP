@@ -35,6 +35,7 @@ public:
 
     ~Player();
     friend ostream& operator<<(ostream& os, const Player& p);
+    friend bool operator >(const Player& p1, const Player &p2);
 };
 
 class jucator_factory{

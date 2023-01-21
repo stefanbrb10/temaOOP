@@ -13,6 +13,7 @@
 #include <sstream>
 #include <algorithm>
 #include "aplicatie.h"
+#include "template.h"
 
 const int SQUAD_SIZE = 26;
 
@@ -172,5 +173,7 @@ int main(){
             aplicatie.addJucator();
             aplicatie.printJucator();
     Player steaua = jucator_factory::stelist();
+    cout << compara(P[4], P[11]) << "\n";
+    cout << compara(lUnder10, lUnder16);
     return 0;
 }

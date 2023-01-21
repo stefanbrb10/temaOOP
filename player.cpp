@@ -1,5 +1,5 @@
 #include "player.h"
-
+#include <tuple>
 #include <utility>
 #include "eroare_jucator.h"
 using namespace std;
@@ -44,6 +44,10 @@ ostream& operator<<(ostream& os, const Player& p){
 
 const string &Player::getName() const {
     return name;
+}
+
+bool operator>(const Player &p1, const Player &p2) {
+    return std::tie(p1.age, p1.name, p1.goals_scored) > std::tie(p2.age, p2.name, p2.goals_scored);
 }
 
 //int Player::getAge() const {

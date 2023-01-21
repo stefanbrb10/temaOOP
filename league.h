@@ -25,8 +25,10 @@ public:
     virtual ~League();
 
     friend std::ostream &operator<<(std::ostream &os, const League &league);
+    friend bool operator>(const League& L1, const League& L2);
 
     virtual std::shared_ptr<League> clone() const = 0;
+
 
 };
 

@@ -7,24 +7,9 @@
 #include <iostream>
 #include "player.h"
 
-/*template <class T> class info{
-private:
-    T object;
+template <typename T> T compara(T x, T y)
+{
+    return (x > y) ? x : y;
+}
 
-public:
-    info(const T& obiect){
-        object = obiect;
-    }
-
-    void printInfo(){
-        std::cout << object;
-    }
-};
-
-template <> class info<Player>{
-    Player object
-
-};
-
-*/
 #endif //OOP_TEMPLATE_H
