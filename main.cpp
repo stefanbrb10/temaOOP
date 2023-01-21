@@ -168,7 +168,7 @@ int main(){
         cout << "Liga nu are buget";
     else cout << money;
     auto& aplicatie = Aplicatie::getAplicatie();
-    int optiune;
+    int optiune = 1;
     do{
         aplicatie.printMeniu();
         std::cin >> optiune;
