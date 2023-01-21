@@ -37,4 +37,10 @@ public:
     friend ostream& operator<<(ostream& os, const Player& p);
 };
 
+class jucator_factory{
+public:
+    static Player mijlocas(){ return Player("Marius Matei", "FC Rapid", "mijlocas", 21);}
+    static Player stelist(){return Player("Tavi Popescu", "FCSB", "atacant", 20);}
+};
+
 #endif

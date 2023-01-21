@@ -12,6 +12,7 @@
 #include <fstream>
 #include <sstream>
 #include <algorithm>
+#include "aplicatie.h"
 
 const int SQUAD_SIZE = 26;
 
@@ -166,6 +167,16 @@ int main(){
     if(money == 0)
         cout << "Liga nu are buget";
     else cout << money;
-
+    auto& aplicatie = Aplicatie::getAplicatie();
+    int optiune;
+    do{
+        aplicatie.printMeniu();
+        std::cin >> optiune;
+        if(optiune == 1)
+            aplicatie.addJucator();
+        if(optiune == 2)
+            aplicatie.printJucator();
+    }while(optiune !=0);
+    Player steaua = jucator_factory::stelist();
     return 0;
 }
