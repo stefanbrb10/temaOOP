@@ -168,12 +168,8 @@ int main(){
         cout << "Liga nu are buget";
     else cout << money;
     auto& aplicatie = Aplicatie::getAplicatie();
-    int optiune = 1;
         aplicatie.printMeniu();
-        if(optiune == 1)
             aplicatie.addJucator();
-         optiune = 2;
-        if(optiune == 2)
             aplicatie.printJucator();
     Player steaua = jucator_factory::stelist();
     return 0;
