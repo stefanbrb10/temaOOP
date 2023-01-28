@@ -175,5 +175,12 @@ int main(){
     Player steaua = jucator_factory::stelist();
     cout << compara(P[4], P[11]) << "\n";
     cout << compara(lUnder10, lUnder16);
+    Clasament<string> clasament;
+    for(auto i = 0ull; i < teams1.size(); i++){
+        clasament.addEchipa(T[i].getName());
+        clasament.addPuncte(T[i].getName(),T[i].getPoints());
+
+    }
+    clasament.printClasament();
     return 0;
 }
